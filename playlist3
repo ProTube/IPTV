@@ -1,21 +1,21 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="144" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/colors-hindi--16x9-1714557869344.jpg",Star Plus
+#EXTINF:-1 tvg-id="144" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://tvschedule.today/_next/image?url=https%3A%2F%2Fimagesdishtvd2h.whatsonindia.com%2Fdasimages%2Fchannel%2Flandscape%2F360x270%2FP1zKivkd.png&w=256&q=75",Star Plus
 http://www.luckonline.eu/restream234509023/5667883dhlkths89/587
-#EXTINF:-1 tvg-id="1370" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/collors-rishtey-live-channels-16x9-3-1642676080416-1674198105431-1697532377978.jpg",Star Plus HD
+#EXTINF:-1 tvg-id="1370" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-25307-jhrhflww-v1/imageContent-25307-jhrhflww-m1.png",Star Plus HD
 https://live.drmlive-02.workers.dev/jc/1370.m3u8
-#EXTINF:-1 tvg-id="756" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-bangla-new-16x9-4-1649659533344.jpg",Star Bharat
+#EXTINF:-1 tvg-id="756" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://tvschedule.today/_next/image?url=https%3A%2F%2Fimagesdishtvd2h.whatsonindia.com%2Fdasimages%2Fchannel%2Flandscape%2F360x270%2Fb3luYfiQ.png&w=256&q=75",Star Bharat
 https://live.drmlive-02.workers.dev/jc/756.m3u8
-#EXTINF:-1 tvg-id="757" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-kannada-16x9-1677754085834.jpg",star Bharat HD
+#EXTINF:-1 tvg-id="757" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-6895-j6vqhqnc-v2/imageContent-6895-j6vqhqnc-m2.png",Star Bharat HD
 https://live.drmlive-02.workers.dev/jc/757.m3u8
-#EXTINF:-1 tvg-id="755" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-marathi-live-channels-16x9-4-6-apr-1649257093359.jpg",Star Utsav
+#EXTINF:-1 tvg-id="755" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://tvschedule.today/_next/image?url=https%3A%2F%2Fimagesdishtvd2h.whatsonindia.com%2Fdasimages%2Fchannel%2Flandscape%2F360x270%2FXQMx6uVj.png&w=256&q=75",Star Utsav
 https://live.drmlive-02.workers.dev/jc/755.m3u8
-#EXTINF:-1 tvg-id="755" group-title="Entertainment" tvg-language="Bangla" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-marathi-live-channels-16x9-4-6-apr-1649257093359.jpg",Star Jalsha
+#EXTINF:-1 tvg-id="755" group-title="Entertainment" tvg-language="Bangla" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpN5qktc_HtDbFFHYV8zvoVBsDK5Z1mo-GjQ&s",Star Jalsha
 https://live.drmlive-02.workers.dev/jc/755.m3u8
-#EXTINF:-1 tvg-id="755" group-title="Entertainment" tvg-language="Bangla" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-marathi-live-channels-16x9-4-6-apr-1649257093359.jpg",Star Vijay
+#EXTINF:-1 tvg-id="755" group-title="Entertainment" tvg-language="Bangla" tvg-logo="https://smartads.in/resources/assets/uploads/product_group/television/star-vijay.webp",Star Vijay
 https://live.drmlive-02.workers.dev/jc/755.m3u8
-#EXTINF:-1 tvg-id="755" group-title="Entertainment" tvg-language="Bangla" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-marathi-live-channels-16x9-4-6-apr-1649257093359.jpg",Star Pravah
+#EXTINF:-1 tvg-id="755" group-title="Entertainment" tvg-language="Bangla" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a3/Star_Pravah_2023.png",Star Pravah
 https://live.drmlive-02.workers.dev/jc/755.m3u8
-#EXTINF:-1 tvg-id="755" group-title="Sports" tvg-language="Hindi" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-marathi-live-channels-16x9-4-6-apr-1649257093359.jpg",Star Sports 1 HD
+#EXTINF:-1 tvg-id="755" group-title="Sports" tvg-language="Hindi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Star_Sports_1_HD.png/2560px-Star_Sports_1_HD.png",Star Sports 1 HD
 https://live.drmlive-02.workers.dev/jc/755.m3u8
 #EXTINF:-1 tvg-id="755" group-title="Sports" tvg-language="Hindi" tvg-logo="https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/colors-marathi-live-channels-16x9-4-6-apr-1649257093359.jpg",Star Sports 2 HD
 https://live.drmlive-02.workers.dev/jc/755.m3u8
