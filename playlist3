@@ -23,9 +23,9 @@ https://live.drmlive-02.workers.dev/jc/755.m3u8
 https://live.drmlive-02.workers.dev/jc/755.m3u8
 #EXTINF:-1 tvg-id="755" group-title="Sports" tvg-language="Hindi" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d0/SS1_Hindi_HD.JPG",Star Sports Hindi HD
 https://live.drmlive-02.workers.dev/jc/755.m3u8
-#EXTINF:-1 tvg-id="755" group-title="Sports" tvg-language="Hindi" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c2/Star-sports-select-1-hd.png/revision/latest/scale-to-width-down/220?cb=20230128174313",Star Sports Select 1 HD
+#EXTINF:-1 tvg-id="755" group-title="Sports" tvg-language="Hindi" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c2/Star-sports-select-1-hd.png/revision/latest/scale-to-width-down/220",Star Sports Select 1 HD
 https://live.drmlive-02.workers.dev/jc/755.m3u8
-#EXTINF:-1 tvg-id="755" group-title="Sports" tvg-language="Hindi" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/af/Star-sports-select-2-hd.png/revision/latest?cb=20230128175317",Star Sports Select 2 HD
+#EXTINF:-1 tvg-id="755" group-title="Sports" tvg-language="Hindi" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/af/Star-sports-select-2-hd.png",Star Sports Select 2 HD
 https://live.drmlive-02.workers.dev/jc/755.m3u8
 #EXTINF:-1 tvg-id="755" group-title="Sports" tvg-language="Tamil" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOmtdAxBobVwuE2QbFy20R64etjOFqgQagH2_TAs-WkVFmZsxvyj-nUJhzs1LiNG1Bf8&usqp=CAU",Star Sports Tamil
 https://live.drmlive-02.workers.dev/jc/755.m3u8
