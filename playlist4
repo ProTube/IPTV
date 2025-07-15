@@ -5218,11 +5218,6 @@ https://embed-cloudfront.wistia.com/deliveries/282114c59788866afb4d40b935a62258.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=09ffaaff477d490abb4516b7e0711d35:759cc157a993e8a76ff4d675e34b5400
 
-#EXTINF:-1 group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194408" tvg-language="Tamil" tvg-logo="" group-title="SunNxt"Sun nEo",Sun Neo HD
-https://livestream8.sunnxt.com/248c92b73514435686fd72ba325d4008/SunNeoHDB_IN_index.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b5a2c6d13b9748de9ceebc0a8adc8af3:e806fec1bf1c8a844216118c94bad020
-
 #EXTINF:-1 group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194406" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194406/640x360_SunMusicHD_194406_87e8d029-f695-477c-9ace-a3c2cbe15004.jpg" group-title="SunNxt"Sun Music HD",Sun Music HD
 https://livestream.sunnxt.com/d434796d90fa4dc9b7ecfacedbe683f1/SunMusicHDB_IN_index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -5366,7 +5361,7 @@ https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://mini1.allinonereb
 #EXTINF:-1 tvg-id="0-9-wion" group-title="ZEE5" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Wion.png",WION
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://mini1.allinonereborn.xyz/zee323/index.php?id=0-9-wion
 
-#EXTINF:-1 tvg-id="0-9-zeehindustan" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bharat.png",Zee Bharat
+#EXTINF:-1 tvg-id="0-9-zeehindustan" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_SANGAM.png",Zee Bharat
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://mini1.allinonereborn.xyz/zee323/index.php?id=0-9-zeehindustan
 
 #EXTINF:-1 tvg-id="0-9-24ghantatv" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/24_Ghanta_TV.png",Zee 24 Ghanta
