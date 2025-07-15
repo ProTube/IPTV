@@ -7,6 +7,13 @@
 #EXTHTTP:{"cookie":"__hdnea__=st=1752546011~exp=1752632411~acl=/*~hmac=dc23b19e23c0f63d84b28debe92ce57886bda0d94662e24c6e8bd1939c0c4910"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd?__hdnea__=st=1752546011~exp=1752632411~acl=/*~hmac=dc23b19e23c0f63d84b28debe92ce57886bda0d94662e24c6e8bd1939c0c4910
 
+#EXTINF:-1 group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194408" tvg-language="Tamil" tvg-logo="" group-title="SunNxt"Sun nEo",Sun Neo HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b5a2c6d13b9748de9ceebc0a8adc8af3:e806fec1bf1c8a844216118c94bad020
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1752546011~exp=1752632411~acl=/*~hmac=dc23b19e23c0f63d84b28debe92ce57886bda0d94662e24c6e8bd1939c0c4910"}
+https://livestream8.sunnxt.com/248c92b73514435686fd72ba325d4008/SunNeoHDB_IN_index.mpd
+
 #EXTINF:-1 tvg-id="1374" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Junior.png",Disney Junior
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1b1f9702f7d853c1b198495f64924311:40e11e60a12dd6c154dfea0ffbd5bda8
@@ -5458,8 +5465,6 @@ https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://mini1.allinonereb
 
 #EXTINF:-1 tvg-id="0-9-zeesalaam" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Salaam.png",Zee Salaam
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://mini1.allinonereborn.xyz/zee323/index.php?id=0-9-zeesalaam
-
-https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://mini1.allinonereborn.xyz/zee323/index.php?id=0-9-sarthaktv
 
 #EXTINF:-1 tvg-id="0-9-176" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Classic.png",Zee Classic
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://mini1.allinonereborn.xyz/zee323/index.php?id=0-9-176
