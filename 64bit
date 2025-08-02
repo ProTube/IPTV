@@ -6,6 +6,13 @@
 #EXTHTTP:{"cookie":"__hdnea__=st=1754133707~exp=1754220107~acl=/*~hmac=6e7ee1153d65cd89eb362231512ff92f51035f3ca0264ad709275073ede913db"}
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/manifest.mpd
 
+#EXTINF:-1 tvg-id="1373" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema.png",Zee Cinema
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ed068cf84f0640ccbc7c0e395c0a272e:bb722190f2bb446391020411a7d0828b
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1754133707~exp=1754220107~acl=/*~hmac=6e7ee1153d65cd89eb362231512ff92f51035f3ca0264ad709275073ede913db"}
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/manifest.mpd
+
 #EXTINF:-1 tvg-id="1373" group-title="Jiostar" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png",Disney Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5181d3e6698055578cedc5bfc86b3e56:3dca7917d8cf9bb7095dc72b48bdcd3c
@@ -5513,72 +5520,72 @@ https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://mini1.allinonereb
 #EXTINF:-1 tvg-id="0-9-9z5383489" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Talkies.png",Zee Talkies
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://mini1.allinonereborn.xyz/zee91/index.php?id=0-9-9z5383489
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009246" tvg-logo="https://sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="SONYLIV", SET HD
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009246" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="SONYLIV", SET HD
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009248" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="SONYLIV", Sony SAB HD
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009248" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="SONYLIV", Sony SAB HD
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/UI4QFJ_uRk6aLxIcADqa_A/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009273" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="SONYLIV", Sony PAL
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009273" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="SONYLIV", Sony PAL
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/rPzF28qORbKZkhci_04fdQ/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000001971" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="SONYLIV", Sony YAY
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000001971" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="SONYLIV", Sony YAY
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009255" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="SONYLIV", Sony AATH
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009255" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="SONYLIV", Sony AATH
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/pSVzGmMpQR6jdmwwJg87OQ/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009259" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" group-title="SONYLIV", Sony Marathi
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009259" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="SONYLIV", Sony Marathi
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/-_w3Jbq3QoW-mFCM2YIzxA/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://c.evidon.com/pub_logos/2796-2021122219404475.png" group-title="SONYLIV", Sony Kal
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009252" tvg-logo="https://sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" group-title="SONYLIV", Sony BBC Earth HD
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009252" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="SONYLIV", Sony BBC Earth HD
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/V73ovbgASP-xGvQQOukwTQ/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009258" tvg-logo="https://sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="SONYLIV", Sony PIX HD
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009258" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="SONYLIV", Sony PIX HD
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/8FR5Q-WfRWCkbMq_GxZ77w/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009253" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="SONYLIV", Sony WAH
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009253" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="SONYLIV", Sony WAH
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/H_ZvXWqHRGKpHcdDE5RcDA/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009249" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX.png" group-title="SONYLIV", Sony MAX
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009249" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Max_SD.png" group-title="SONYLIV", Sony MAX
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/oJ-TGgVFSgSMBUoTkauvFQ/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009247" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" group-title="SONYLIV", Sony MAX HD
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009247" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="SONYLIV", Sony MAX HD
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000044878" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX2.png" group-title="SONYLIV", Sony MAX2
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000044878" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="SONYLIV", Sony MAX2
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/4Jcu195QTpCNBXGnpw2I6g/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009280" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 1
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009280" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIG0Lgj4YygekU5ZBGz2A8blAuclxCepmS7LMS80pHbq1BKi5ItUaSlh03oRBXofj-iaGaxBYPbpae5RURLaIshRuANRzdTRsqHXwcyDj9a1DGNXorAZkQg78pjhmQ0jDC1G1_IY6Cf6WQZnZzx8ty73TS8X0fTnMn9YGMXhIn-TJo6ukCBsugcFXE/s1600/SonyTen1.png" group-title="SONYLIV", Sony TEN 1
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/4_pnLi2QTe6bRGvvahRbfg/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009279" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 2
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009279" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3qOdlN32sC5NLfyk2_ayjRCM-rEK4dpzZyphr7xJZ4Y5EZ9fH1Fyq3I6TkTIqU8JJim5XIg3lg6PAuFsorZm05adh3RQ1FkFOwL_4ptqoYiWxrN77pZmBNHxUoa_ixioazlRbh4LpstME34CPUvrlzy66FY4FwKfQMxP0PbAvmuS8CTLCYgiTWZo1/s1600/SonyTen2HD.png" group-title="SONYLIV", Sony TEN 2
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/nspQRqO5RmC06VmlPrTwkQ/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009283" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_SD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 3
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009283" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbn714DBNLPyov8n_7susCmCdmVu6BZaU26lIcOOEVIJIqYvdI5Z5Pp36rZF_Jv14QRbmRXblgkc3VqwELVCcgU84cSAaG-ZDX5SO8lYcUZYCU2tLaobotekL-an8PK7hHhqI59OTiolk01pNmWQ3JxjpvQLwyUgbs9W3q18gAttxMXKd-Qao8Nz0o/s1600/SonyTen3.png" group-title="SONYLIV", Sony TEN 3
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/9kocjiLUSf-erlSrv3d4Mw/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000119187" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 4
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000119187" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/95/Sony_Sports_Ten_4.png" group-title="SONYLIV", Sony TEN 4
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/hInaEKUJSziZAGv9boOdjg/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009281" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 5
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009281" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHrLMgQFhC2R9UAL428m3JtJpS-FKx-d1x9J8ei_VbjBbWzttyjf2CC4l0jjiYJ4GeHT2Q2d8PUeYS4aAiTuZ0oMfukWKT0eDqVHoGU2-5VO1ew8IbqB_o8HcZEws7nwQlaKSKyflwzXaltU1-9PwhEO0IsOPgZq4p8tUPOxve1t1CtvLJ_g96A3y-/s1600/SonyTen5.png" group-title="SONYLIV", Sony TEN 5
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/S-q8I27RRzmkb-OIdoaiAw/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009276" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 1 HD
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009276" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYmlHjwsKhMTBIKkfcdiXwtGJ3xQEdhMtbtFm071DOqCYv18PVhPmKwwzrWBOHjEZqKJb6FdpB3YVQ_cOSjMJbFYX5l3SLdFmUxgr18CbEyMod1yMw2seQF6-T-0RPtxnwMtVv4MEuqVmC-Mu-gu22GL7ZdE-MmqnJdN5HROXLYEvScmSYON3M9i6R/s1600/SonyTen1HD.png" group-title="SONYLIV", Sony TEN 1 HD
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009277" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 2 HD
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009277" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3qOdlN32sC5NLfyk2_ayjRCM-rEK4dpzZyphr7xJZ4Y5EZ9fH1Fyq3I6TkTIqU8JJim5XIg3lg6PAuFsorZm05adh3RQ1FkFOwL_4ptqoYiWxrN77pZmBNHxUoa_ixioazlRbh4LpstME34CPUvrlzy66FY4FwKfQMxP0PbAvmuS8CTLCYgiTWZo1/s1600/SonyTen2HD.png" group-title="SONYLIV", Sony TEN 2 HD
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009278" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_HD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 3 HD
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009278" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4wemqlgmy7BlkRlclCZzLc5Vc22uyezDN_YU6X-P1poC1Bgu5c5wzhPuCoK0VQaNVWJvjEGWp9zPk7fDHyFdcUyngP8NF62GFNlfraKAS7sASInarkzLXsYzQbwT0-zpCRPrH0DnBz4GuDo3XypGNgW6aMlSElvjjErZ7AzIDJK_XWlIbTG4X3xfB/s1600/SonyTen3HD.png" group-title="SONYLIV", Sony TEN 3 HD
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000119186" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 4 HD
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000119186" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl6HCqJuYtsmaTCEVMin4_7TU-LluYNoRz-su49urT7JdY4lyP9J3tCfIl49H-FCRfYR8_0WMu9Y6vXtdGJ4nLXQFxu-WTlwJXgFAaBXlD--0Ch4F-U_pSyauUQqX0nFGD2x1LM8207Yi5tfW0QisqRfAqUY1kxj4ZlrPub5cSOHrEEbzZ8QSpNWev/s1600/SonyTen4HD.png" group-title="SONYLIV", Sony TEN 4 HD
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/x4LxWUcVSIiDaq1VCM7DSA/master.m3u8
 
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009275" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 5 HD
+#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009275" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg74_o_fo8I_v9b4yPPqyCqib-MpbE-3yU8p-ZPxIRDfU5M5ztgclNeXO_AndXrrnLfrEHzXEx4-ek_HNZlpg7rx3nnTLPO0OYWb5X-xEX-1dNAOdkx7uPiZgMQoG45HjHGE3pWVJArCHn-TKXftkGiotRWRUdqsc-NelQw7100AUEtGXhJKxFqHriu/s1600/SonyTen5HD.png" group-title="SONYLIV", Sony TEN 5 HD
 https://tataplayapplayer.blogspot.com/?m=2&exoplayermixhttps://pubads.g.doubleclick.net/ssai/event/DD7fA-HgSUaLyZp9AjRYxQ/master.m3u8
 <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
