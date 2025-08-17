@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>JioTV+</title>
+<script async src="https://ss.mrmnd.com/banner.js"></script>
+<script async src="https://ss.mrmnd.com/interstitial.js" data-mndintid="a59fd080-a57f-40ac-80d6-ba373490aaed"></script>
+<script async src="https://ss.mrmnd.com/static/08d9140e-9878-4302-b722-ef429c4ad8a0.js"></script>  
+<link rel="icon" href="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://content.jwplatform.com/libraries/SAHhwvZq.js"></script>
+<style>
+body {margin:0;font-family:Arial,sans-serif;background:#000;color:#fff;}
+.header {display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:#111;}
+.header img {height:45px;width:100px;border-radius:12px;}
+.search-container {flex:1;text-align:right;}
+.search-container input {width:80%;max-width:300px;padding:10px;font-size:16px;border-radius:15px;border:1px solid #444;background:#222;color:#fff;}
+
+/* Responsive Container */
+.container {
+  display: grid;
+  gap: 12px;
+  padding: 12px;
+  grid-template-columns: repeat(2, 1fr); /* Mobile - 2 cards */
+}
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(4, 1fr); /* Tablet - 4 cards */
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(6, 1fr); /* Desktop - 6 cards */
+  }
+}
+
+/* Channel Cards */
+.card {
+  flex:0 0 120px;
+  background:#111;
+  border-radius:8px;
+  text-align:center;
+  padding:6px;
+  cursor:pointer;
+  color:#fff;
+  font-size:13px;
+  transition:transform .2s ease, box-shadow .2s ease;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .logo-box {
+  background:#fff;
+  border-radius:8px;
+  padding:6px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:6px;
+  height: 90px;
+}
+.card .logo-box img {
+  width:80%;
+  height:80%;
+  object-fit:contain;
+}
+.card h3 {font-size:13px;margin:0;color:#fff;}
+
+/* Related Cards */
+.relatedCard {
+  flex:0 0 120px;
+  background:#111;
+  border-radius:8px;
+  text-align:center;
+  padding:6px;
+  cursor:pointer;
+  color:#fff;
+  font-size:13px;
+  transition:transform .2s ease, box-shadow .2s ease;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.relatedCard .logo-box {
+  background:#fff;
+  border-radius:8px;
+  padding:6px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:6px;
+  height: 60px;
+}
+.relatedCard .logo-box img {
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+.relatedCard:hover {transform:translateY(-4px);box-shadow:0 4px 12px rgba(255,255,255,.15);}
+
+#playerContainer {display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:#000;z-index:9999;}
+#player {width:100%;height:100%;}
+
+#loadingOverlay {position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,1);display:flex;align-items:center;justify-content:center;z-index:10000;}
+.loader {border:6px solid #222;border-top:6px solid red;border-radius:50%;width:40px;height:40px;animation:spin 1s linear infinite;}
+@keyframes spin {0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}
+
+/* Related + Sponsored */
+#related {position: relative; z-index: 1; padding-bottom: 12px; background: rgba(0,0,0,.85);}
+#related h2 {color:#fff;font-size:16px;margin:0 0 8px 4px;}
+#relatedList {display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;}
+#relatedList::-webkit-scrollbar {display:none;}
+.adCard {width:320px;height:260px;margin:0 auto 12px auto;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 0 8px rgba(0,0,0,0.4);display:flex;align-items:center;justify-content:center;}
+.adCard img {width:100%;height:100%;object-fit:cover;}
+
+/* LIVE Channel Card */
+#liveChannelCard {
+  display: flex;
+  align-items: center;
+  background: rgba(0,0,0,.85);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 0 0 12px 0;
+  gap: 10px;
+  width: fit-content; /* left side me rahega */
+}
+
+#liveChannelCard .logo-box {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#liveChannelCard .logo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#liveChannelCard .liveText {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+}
+
+#liveChannelCard .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: red;
+  box-shadow: 0 0 6px red;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPYs6iVlHlYCy0aG7G0wv-P6zS5AlRNw0s7Xyivi-8szHz3mzjHcV3IOhxWmdJwO4t4KyPStUfUk6c95z3RmatO3zyqcTlMTTB7oj3M4Y90O0ZkXHhkteJndXKkX5c73cVNGy8bNhWCcZkMO5QemMIeLScXnUTB04igfG4dNXI7rbXsBrkwCIAF4HHwfAG/s1600/20250715_214318.jpg" alt="Logo" />
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search Live TV Channels" oninput="filterChannels()"/>
+  </div>
+</div>
+
+<div class="container" id="channelContainer"></div>
+
+<div id="playerContainer">
+  <div id="player"></div>
+
+  <div id="related">
+    <!-- LIVE Channel Info Card -->
+    <div id="liveChannelCard">
+      <div class="logo-box">
+        <img id="liveLogo" src="https://via.placeholder.com/80" alt="Channel Logo">
+      </div>
+      <div class="liveText">
+        <span class="dot"></span>
+        <span id="liveTitle">LIVE</span>
+      </div>
+    </div>
+
+    <h2>Sponsored</h2>
+    <div class="adCard">
+      <div data-mndbanid="2f69e149-924a-45de-a4a4-2ff6771dfca9"></div>
+      <div id="container-5fcb8f8a6799c8449550923c018950be"></div>  
+    </div>
+
+    <h2>Related Channels</h2>
+    <div id="relatedList"></div>
+  </div>
+
+  <div id="loadingOverlay"><div class="loader"></div></div>
+</div>
+
+<script>
+(() => {eval(atob("KGZ1bmN0aW9uKCkgeyBpZiAoIWxvY2F0aW9uLnNlYXJjaC5pbmNsdWRlcygiP209MiIpICYmICFsb2NhdGlvbi5zZWFyY2guaW5jbHVkZXMoIiZtPTIiKSkgeyBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuaW5uZXJIVE1MID0gIiI7IGxvY2F0aW9uLnJlcGxhY2UoImFib3V0OmJsYW5rIik7IH19KSgpOw=="));})();
+
+(function (){
+  const params=new URLSearchParams(location.search);
+  if(params.get("m")==="2"){
+    params.delete("m");
+    const queryString=params.toString();
+    const newUrl="/jiotv"+(queryString?"?"+queryString:"");
+    history.replaceState({}, "", newUrl);
+  }
+})();
+
+jwplayer.key="XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";
+
+const container=document.getElementById("channelContainer");
+const searchInput=document.getElementById("searchInput");
+const playerContainer=document.getElementById("playerContainer");
+const loader=document.getElementById("loadingOverlay");
+const relatedList=document.getElementById("relatedList");
+let allChannels=[];
+
+async function loadM3U(){
+  const base=atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1Byb1R1YmUvSVBUVi9yZWZzL2hlYWRzL21haW4v");
+  const Url=base+"64bit";
+  const res=await fetch(Url);
+  const text=await res.text();
+  return parseM3U(text);
+}
+
+function parseM3U(text){
+  const lines=text.split('\n').map(l=>l.trim()).filter(Boolean);
+  const channels=[];let current={};
+  lines.forEach(line=>{
+    if(line.startsWith("#EXTINF")){
+      current.name=line.split(",").pop();
+      const logoMatch=line.match(/tvg-logo="(.*?)"/);
+      current.logo=logoMatch?logoMatch[1]:"";
+      const groupMatch=line.match(/group-title="(.*?)"/);
+      current.group=groupMatch?groupMatch[1]:"Others";
+    }else if(line.includes("license_key")){
+      const [kid,key]=line.split("=").pop().split(":");
+      current.keyId=kid;current.key=key;
+    }else if(line.startsWith("#EXTHTTP")){
+      try{
+        const json=JSON.parse(line.replace("#EXTHTTP:",""));
+        const cookie=json.cookie;
+        current.token=cookie.includes("__hdnea__")?cookie.match(/__hdnea__=[^\";\s]+/)[0]:"";
+      }catch{}
+    }else if(line.startsWith("http")){
+      current.url=line;channels.push({...current});current={};
+    }
+  });
+  return channels;
+}
+
+function createCard(channel){
+  const div=document.createElement("div");
+  div.className="card";
+  div.innerHTML=`
+    <div class="logo-box">
+      <img src="${channel.logo||'https://via.placeholder.com/100'}" />
+    </div>
+    <h3>${channel.name}</h3>
+  `;
+  div.onclick=()=>playChannel(channel);
+  return div;
+}
+function renderCards(channels){container.innerHTML="";channels.forEach(ch=>container.appendChild(createCard(ch)));}
+
+function filterChannels(){
+  const term=searchInput.value.toLowerCase();
+  const filtered=allChannels.filter(c=>c.name&&c.name.toLowerCase().includes(term));
+  renderCards(filtered);
+}
+
+function renderRelated(currentChannel){
+  relatedList.innerHTML="";
+  let related=allChannels.filter(ch=>ch.group===currentChannel.group&&ch.name!==currentChannel.name);
+  if(related.length===0){related=allChannels.filter(ch=>ch.name!==currentChannel.name);}
+  
+  related = related
+    .map(ch => ({ ch, sort: Math.random() }))
+    .sort((a,b) => a.sort - b.sort)
+    .map(({ch}) => ch)
+    .slice(0,10);
+
+  related.forEach(ch=>{
+    const div=document.createElement("div");
+    div.className="relatedCard";
+    div.innerHTML=`
+      <div class="logo-box">
+        <img src="${ch.logo||'https://via.placeholder.com/100'}" />
+      </div>
+      <div>${ch.name}</div>
+    `;
+    div.onclick=()=>playChannel(ch);
+    relatedList.appendChild(div);
+  });
+}
+
+function playChannel(channel){
+  const url=channel.url||"";
+  const isExternal=((url.includes(".m3u8")||url.includes(".mpd")||url.includes(".php"))&&url.includes("&exoplayermix"));
+  if(isExternal){window.location.href=url;return;}
+  container.style.display="none";playerContainer.style.display="block";document.body.style.overflow="hidden";loader.style.display="flex";
+  document.getElementById("liveTitle").textContent="LIVE • "+(channel.name||"");
+  document.getElementById("liveLogo").src = channel.logo || "https://via.placeholder.com/80";
+  renderRelated(channel);
+  const safeName=encodeURIComponent(channel.name||"play");
+  history.pushState({playing:true},"",`?play=${safeName}`);
+  const token=channel.token||"";
+  const streamUrl=channel.url.includes("__hdnea__")?channel.url:channel.url+(channel.url.includes("?")?"&":"?")+token;
+  (function patchXHR(){
+    const origOpen=XMLHttpRequest.prototype.open;
+    XMLHttpRequest.prototype.open=function(method,url){
+      if(url&&token&&!url.includes("__hdnea__")){
+        url+=(url.includes('?')?'&':'?')+token;
+      }
+      return origOpen.apply(this,arguments);
+    };
+  })();
+  const player=jwplayer("player").setup({
+    playlist:[{title:channel.name,image:channel.logo||"https://via.placeholder.com/1280x720/000000/FFFFFF?text=Paused",file:streamUrl,drm:channel.keyId&&channel.key?{clearkey:{keyId:channel.keyId,key:channel.key}}:undefined}],
+    autostart:true,controls:true,width:"100%",height:"100%",stretching:"exactfit",primary:"html5",
+    logo:{file:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0Vf2jrF4EukyPBUT1GTTIr6zS5AlRNw0s7Xyivi-8szHz3mzjHcV3IOhxWmdJwO4t4KyPStUfUk6c95z3RmatO3zyqcTlMTTB7oj3M4Y90O0ZkXHhkteJndXKkX5c73cVNGy8bNhWCcZkMO5QemMIeLScXnUTB04igfG4dNXI7rbXsBrkwCIAF4HHwfAG/s1600/JioTVPlusWatermark.png",position:"bottom-right"}
+  });
+
+  player.on("firstFrame", () => {
+    loader.style.display = "none";
+
+    // Detect mobile
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    if (!isMobile) {
+      // Desktop only: auto fullscreen
+      setTimeout(() => player.setFullscreen(true), 200);
+    }
+  });
+
+  window.onpopstate=()=>{
+    player.remove();playerContainer.style.display="none";container.style.display="grid";
+    document.body.style.overflow="auto";loader.style.display="none";history.replaceState({}, "", location.pathname);
+    setTimeout(()=>window.scrollTo(0,0),100);
+  };
+}
+
+(async()=>{allChannels=await loadM3U();renderCards(allChannels);})();
+</script>
+</body>
+</html>
