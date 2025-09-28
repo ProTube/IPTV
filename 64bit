@@ -5452,7 +5452,10 @@ https://exoplayermixhttps://mini.allinonereborn.site/zee001/index.php?id=0-9-zee
 https://exoplayermixhttps://mini.allinonereborn.online/ze/live.php?id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105540/ZeeCinemaHDELE/index-connected.m3u8&token=JITENDRA_KUMAR&e.m3u8
 
 #EXTINF:-1 tvg-id="0-9-zeecinemahd" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png",Zee Cinema HD
-https://exoplayermixhttps://mini.allinonereborn.site/zee001/index.php?id=0-9-zeecinemahd
+https://exoplayermixhttps://allinonereborn.xyz/airteltv-web/live.php?id=276907&e.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeecinema" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png",Zee Cinema HD
+https://exoplayermixhttps://allinonereborn.xyz/opplextv-web1/live.php?id=206308&e.m3u8
 
 #EXTINF:-1 tvg-id="0-9-zeecinemalu" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinemalu_HD.png",Zee Cinemalu HD
 https://exoplayermixhttps://mini.allinonereborn.site/zee001/index.php?id=0-9-zeecinemalu
@@ -5480,9 +5483,6 @@ https://exoplayermixhttps://mini.allinonereborn.site/zee001/index.php?id=0-9-pic
 
 #EXTINF:-1 tvg-id="0-9-zeecinema" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema.png",Zee Cinema
 https://exoplayermixhttps://mini.allinonereborn.online/ze/live.php?id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105552/ZeeCinemaELE/master.m3u8&token=JITENDRA_KUMAR&e.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeecinema" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema.png",Zee Cinema
-https://exoplayermixhttps://mini.allinonereborn.site/zee001/index.php?id=0-9-zeecinema
 
 #EXTINF:-1 tvg-id="0-9-zeeaction" group-title="ZEE5" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Action.png",Zee Action
 https://exoplayermixhttps://mini.allinonereborn.site/zee001/index.php?id=0-9-zeeaction
