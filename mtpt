@@ -1,0 +1,9 @@
+
+#EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
+
+#EXTINF:-1 group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_So8h9MCEUTqPuSrucw4XjepK70T1HnJ9nQ&s" tvg-id="1000119186" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_So8h9MCEUTqPuSrucw4XjepK70T1HnJ9nQ&s" group-title="JioCinema", Motu Patlu
+https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
+
+#EXTINF:-1 group-logo="https://yt3.googleusercontent.com/krEBMFPvwl-Fp0TcZh8TH76-z2kHivKvr9ow1IXUvrqOq0l_EjDNDrrVxO-nb2AZeKSWZbgh=s900-c-k-c0x00ffffff-no-rj" tvg-id="1000009275" tvg-logo="https://yt3.googleusercontent.com/krEBMFPvwl-Fp0TcZh8TH76-z2kHivKvr9ow1IXUvrqOq0l_EjDNDrrVxO-nb2AZeKSWZbgh=s900-c-k-c0x00ffffff-no-rj" group-title="JioCinema", Wow Kidz
+https://ekanoo.vercel.app/live/wow-kidz-hindi.m3u8
+<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
