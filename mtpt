@@ -1,9 +1,9 @@
 
 #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
 
-#EXTINF:-1 group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_So8h9MCEUTqPuSrucw4XjepK70T1HnJ9nQ&s" tvg-id="1000119186" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_So8h9MCEUTqPuSrucw4XjepK70T1HnJ9nQ&s" group-title="JioCinema", Motu Patlu
+#EXTINF:-1 group-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTQedmmDd0fi8gnsGzbGPwu-oePiO-F2kpaCqa-NpaijBipCSsI9vuRCd81aTFT10-bazXvQFyHe4zg3IgMX8Y899VwpGsIFUdezHDKK2QfJevSoDUv5wDd8ygJZSAy1YFutnWs5iZndpv1kNtkTNsvBdXU-VsCOD0Jeq6zJ6HT4Ze5QTkBFnUk8QeEMcD/s1600/jcinema.png" tvg-id="1000119186" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTQedmmDd0fi8gnsGzbGPwu-oePiO-F2kpaCqa-NpaijBipCSsI9vuRCd81aTFT10-bazXvQFyHe4zg3IgMX8Y899VwpGsIFUdezHDKK2QfJevSoDUv5wDd8ygJZSAy1YFutnWs5iZndpv1kNtkTNsvBdXU-VsCOD0Jeq6zJ6HT4Ze5QTkBFnUk8QeEMcD/s1600/jcinema.png" group-title="JioCinema", Motu Patlu
 https://exoplayermixhttps://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
 
-#EXTINF:-1 group-logo="https://yt3.googleusercontent.com/krEBMFPvwl-Fp0TcZh8TH76-z2kHivKvr9ow1IXUvrqOq0l_EjDNDrrVxO-nb2AZeKSWZbgh=s900-c-k-c0x00ffffff-no-rj" tvg-id="1000009275" tvg-logo="https://yt3.googleusercontent.com/krEBMFPvwl-Fp0TcZh8TH76-z2kHivKvr9ow1IXUvrqOq0l_EjDNDrrVxO-nb2AZeKSWZbgh=s900-c-k-c0x00ffffff-no-rj" group-title="JioCinema", Wow Kidz
+#EXTINF:-1 group-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB3xpAgnCCTWNmpNZyaZSuTDb2iQqfAlMg-_WJhKshCHAS5QR8rYts37a0FB-J6S07gHxYGbfjJ6eY6VDgQWsbCSg_mr4MLrsavXS9yZPhjahrlunEgNSPjbi-up_rxUmsOJJKF0b7_d8vVDEFNxLyXdRG5fnZczzQkZZvz3CrjZcwnPLD137R2jLwM9-2/s1600/wowkdz.jpg" tvg-id="1000009275" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB3xpAgnCCTWNmpNZyaZSuTDb2iQqfAlMg-_WJhKshCHAS5QR8rYts37a0FB-J6S07gHxYGbfjJ6eY6VDgQWsbCSg_mr4MLrsavXS9yZPhjahrlunEgNSPjbi-up_rxUmsOJJKF0b7_d8vVDEFNxLyXdRG5fnZczzQkZZvz3CrjZcwnPLD137R2jLwM9-2/s1600/wowkdz.jpg" group-title="JioCinema", Wow Kidz
 https://exoplayermixhttps://ekanno.vercel.app/live/wow-kidz-hindi.m3u8
 <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
