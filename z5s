@@ -16,10 +16,10 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeekannada/default/manifest.mpd
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_TV_HD.png" group-title="voot",Zee TV HD
-https://exoplayermixhttps://mini.allinonereborn.fun/ze/live.php?id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105531/ZeeTVHDMSLELE/index-connected.m3u8&token=JITENDRA_KUMAR&e.m3u8
+https://exoplayermix.m3u8https://mini.allinonereborn.fun/ze/live.php?id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105531/ZeeTVHDMSLELE/index-connected.m3u8&token=JITENDRA_KUMAR&e.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/38/2/zee-tv-logo-png_seeklogo-384620.png" group-title="voot",Zee TV SD
-https://exoplayermixhttps://mini.allinonereborn.fun/ze/live.php?id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105536/ZeeTVELE/master.m3u8&token=JITENDRA_KUMAR&e.m3u8
+https://exoplayermix.m3u8https://mini.allinonereborn.fun/ze/live.php?id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105536/ZeeTVELE/master.m3u8&token=JITENDRA_KUMAR&e.m3u8
 
 #EXTINF:-1 tvg-name="Zee Telugu HD" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/6vNzRaRK.png",Zee Telugu HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -115,7 +115,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mp
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_TV_HD.png" group-title="voot",And TV HD
-https://exoplayermixhttps://amg01117-amg01117c1-amgplt0165.playout.now3.amagi.tv/playlist.m3u8
+https://exoplayermix.m3u8https://amg01117-amg01117c1-amgplt0165.playout.now3.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="And Pictures SD" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/HivVrdof.png",And Pictures SD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
