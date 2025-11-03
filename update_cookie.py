@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 
 # --- आपकी फाइल डिटेल्स ---
-THIRD_PARTY_URL = "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u"
+THIRD_PARTY_URL = "https://github.com/ProTube/IPTV/raw/refs/heads/main/64bit"
 MASTER_M3U_FILENAME = "hstr.m3u"
 # PlaceHolder: आपको अपनी hstr.m3u में इस PlaceHolder का उपयोग करना होगा
 COOKIE_PLACEHOLDER = "__HDNEA_COOKIE_PLACEHOLDER__"
