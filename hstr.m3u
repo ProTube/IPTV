@@ -1,5 +1,7 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
 
+__hdnea__=st=1762151407~exp=1762237807~acl=/*~hmac=d7229135ae4a8cfeb38ddcc2bdb9e70139dc3c44962a5df8ecb322814ecc9d67
+
 #EXTINF:-1 tvg-id="204" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Sports.png",DD Sports
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0c1b139b9a955134a1efae8e44b63aac:00897bffd6997049787270797b8c3a17
