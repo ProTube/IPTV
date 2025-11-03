@@ -1,0 +1,44 @@
+name: M3U Cookie Auto Updater
+
+# यह Workflow हर 3 घंटे में चलेगा (आप इसे बदल सकते हैं)
+on:
+  schedule:
+    # 0 0/3 * * * का मतलब है: 0 मिनट पर, हर 3 घंटे में (0, 3, 6, 9, 12, 15, 18, 21 बजे UTC)
+    - cron: '0 0/3 * * *' 
+  workflow_dispatch: # मैन्युअल रूप से चलाने की अनुमति देता है
+
+jobs:
+  update_m3u:
+    runs-on: ubuntu-latest
+
+    # GitHub टोकन का उपयोग करके कोड को चेकआउट करें (ताकि वह पुश कर सके)
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }} # यह ऑटोमेटिकली उपलब्ध होता है
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run the update script
+      id: script
+      run: |
+        python update_cookie.py
+      # Note: 'id: script' का उपयोग आउटपुट वेरिएबल को पढ़ने के लिए किया जाता है
+
+    # केवल तभी कमिट करें जब स्क्रिप्ट ने बदलाव किए हों
+    - name: Commit and Push changes
+      if: steps.script.outputs.commit_needed == 'true'
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "AUTO: Updated M3U cookie for hstr.m3u"
+        file_pattern: 'hstr.m3u' # केवल इसी फाइल को कमिट करें
+        branch: main # आपकी रिपॉजिटरी की मुख्य ब्रांच का नाम
