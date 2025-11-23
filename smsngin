@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://raw.github.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/in.xml.gz"
 #EXTINF:-1 tvg-id="IN38000072R" tvg-name="IN38000072R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20241211T020400SQUARE.png" group-title="Movies" , The Movie Club
-https://exoplayermix.m3u8https://jmp2.uk/stvp-IN38000072R
+https://exoplayermix.m3u8https://jmp2.uk/stvp-IN38000072R?php
 #EXTINF:-1 tvg-id="IN3800008CX" tvg-name="IN3800008CX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800008CX_20250625T011531SQUARE.png" group-title="Movies" , South Station
 https://exoplayermix.m3u8https://jmp2.uk/stvp-IN3800008CX
 #EXTINF:-1 tvg-id="IN3800010SH" tvg-name="IN3800010SH" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800010SH_20250122T004825SQUARE.png" group-title="Movies" , Hollywood Desi
