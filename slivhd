@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1764009007~acl=/*~id=73506319165021506045924447320927~hmac=e338d8d42fc532ef6e2b9257fa182f8dc577e87c62e475e0ac8e4cf526707a9b",
 #EXTINF:-1 tvg-id="sony-hd" tvg-name="SET HD" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png",SET HD
 https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8%3Fhdnea%3Dexp%3D1763577019~acl%3D/~id=13285125929761849055732066735846~hmac=2353c3ffb25313249ed33ceab7555c6f445b07cf24c40be0c1d614949f23934f
 #EXTINF:-1 tvg-id="sony-sab-hd" tvg-name="Sony SAB HD" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",Sony SAB HD
