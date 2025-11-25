@@ -1,3 +1,189 @@
+M3U Link Updater
+Step 1: Custom Link Prefix (यह हर लिंक के आगे जोड़ा जाएगा)
+
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=
+Step 2: JSON Data (वह JSON जिसमें नए लिंक हैं)
+
+[
+  {
+    "id": "sony-hd",
+    "channel": "SET HD",
+    "group": "Entertainment",
+    "logo": "https://sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-sab-hd",
+    "channel": "Sony SAB HD",
+    "group": "Entertainment",
+    "logo": "https://sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-marathi",
+    "channel": "Sony Marathii",
+    "group": "Entertainment",
+    "logo": "https://sonypicturesnetworks.com/images/logos/Sony_MARATHI.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-pal",
+    "channel": "Sony Pal",
+    "group": "Entertainment",
+    "logo": "https://sonypicturesnetworks.com/images/logos/SONY%20PAL.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-aath",
+    "channel": "Sony Aath",
+    "group": "Entertainment",
+    "logo": "https://sonypicturesnetworks.com/images/logos/SONY%20AATH.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-yay",
+    "channel": "Sony Yay",
+    "group": "Kids",
+    "logo": "https://sonypicturesnetworks.com/images/logos/SONY%20YAY.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-max-hd",
+    "channel": "Sony MAX HD",
+    "group": "Movies",
+    "logo": "https://sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-max",
+    "channel": "Sony MAX",
+    "group": "Movies",
+    "logo": "https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_SD.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-max-2",
+    "channel": "Sony MAX 2",
+    "group": "Movies",
+    "logo": "https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-wah",
+    "channel": "Sony WAH",
+    "group": "Movies",
+    "logo": "https://sonypicturesnetworks.com/images/logos/Sony_WAH.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-pix-hd",
+    "channel": "Sony PIX HD",
+    "group": "Movies",
+    "logo": "https://sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-bbc-earth-hd",
+    "channel": "Sony BBC Earth HD",
+    "group": "Infotainment",
+    "logo": "https://sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-ten-1",
+    "channel": "Sony Sports Ten 1",
+    "group": "Sports",
+    "logo": "https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-ten-2",
+    "channel": "Sony Sports Ten 2",
+    "group": "Sports",
+    "logo": "https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2020590/TEN2SD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-ten-3",
+    "channel": "Sony Sports Ten 3",
+    "group": "Sports",
+    "logo": "https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_SD_Logo_CLR.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2020592/TEN3SD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-ten-4",
+    "channel": "Sony Sports Ten 4",
+    "group": "Sports",
+    "logo": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-ten-5",
+    "channel": "Sony Sports Ten 5",
+    "group": "Sports",
+    "logo": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2020594/SONYSIXSD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-ten-1-hd",
+    "channel": "Sony Sports Ten 1 HD",
+    "group": "Sports",
+    "logo": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png",
+    "link": "https://dishmt.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-ten-2-hd",
+    "channel": "Sony Sports Ten 2 HD",
+    "group": "Sports",
+    "logo": "https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-ten-3-hd",
+    "channel": "Sony Sports Ten 3 HD",
+    "group": "Sports",
+    "logo": "https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_HD_Logo_CLR.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-ten-4-hd",
+    "channel": "Sony Sports Ten 4 HD",
+    "group": "Sports",
+    "logo": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  },
+  {
+    "id": "sony-ten-5-hd",
+    "channel": "Sony Sports Ten 5 HD",
+    "group": "Sports",
+    "logo": "https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png",
+    "link": "https://dishmt.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604",
+    "join": "https://t.me/cricindia95"
+  }
+]
+Step 3: Base M3U Data (GitHub URL: https://github.com/abc/IPTV/raw/refs/heads/main/slivhd की सामग्री यहाँ पेस्ट करें)
+
 #EXTM3U 
 #EXTINF:-1 tvg-id="sony-hd" tvg-name="SET HD" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png",SET HD
 https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1764009007~acl=/*~id=73506319165021506045924447320927~hmac=e338d8d42fc532ef6e2b9257fa182f8dc577e87c62e475e0ac8e4cf526707a9b
@@ -43,3 +229,51 @@ https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://d
 https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1764009007~acl=/*~id=73506319165021506045924447320927~hmac=e338d8d42fc532ef6e2b9257fa182f8dc577e87c62e475e0ac8e4cf526707a9b
 #EXTINF:-1 tvg-id="sony-ten-5-hd" tvg-name="Sony Sports Ten 5 HD" group-title="Sports" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png",Sony Sports Ten 5 HD
 https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8?hdnea=exp=1764009007~acl=/*~id=73506319165021506045924447320927~hmac=e338d8d42fc532ef6e2b9257fa182f8dc577e87c62e475e0ac8e4cf526707a9b
+ Update M3U Links Download Updated M3U
+Step 4: Updated M3U Output
+
+#EXTM3U
+#EXTINF:-1 tvg-id="sony-hd" tvg-name="SET HD" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png",SET HD
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-sab-hd" tvg-name="Sony SAB HD" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",Sony SAB HD
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-marathi" tvg-name="Sony Marathii" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png",Sony Marathii
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-pal" tvg-name="Sony Pal" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pal.png",Sony Pal
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_aath.png",Sony Aath
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-yay" tvg-name="Sony Yay" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png",Sony Yay
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-max-hd" tvg-name="Sony MAX HD" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png",Sony MAX HD
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-max" tvg-name="Sony MAX" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_SD.png",Sony MAX
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-max-2" tvg-name="Sony MAX 2" group-title="Movies" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png",Sony MAX 2
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-wah" tvg-name="Sony WAH" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png",Sony WAH
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-pix-hd" tvg-name="Sony PIX HD" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png",Sony PIX HD
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-bbc-earth-hd" tvg-name="Sony BBC Earth HD" group-title="Infotainment" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png",Sony BBC Earth HD
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-ten-1" tvg-name="Sony Sports Ten 1" group-title="Sports" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_1.png",Sony Sports Ten 1
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-ten-2" tvg-name="Sony Sports Ten 2" group-title="Sports" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten2_HD.png",Sony Sports Ten 2
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2020590/TEN2SD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-ten-3" tvg-name="Sony Sports Ten 3" group-title="Sports" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_3.png",Sony Sports Ten 3
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2020592/TEN3SD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-ten-4" tvg-name="Sony Sports Ten 4" group-title="Sports" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png",Sony Sports Ten 4
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-ten-5" tvg-name="Sony Sports Ten 5" group-title="Sports" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Six_SD.png",Sony Sports Ten 5
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2020594/SONYSIXSD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-ten-1-hd" tvg-name="Sony Sports Ten 1 HD" group-title="Sports" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png",Sony Sports Ten 1 HD
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-ten-2-hd" tvg-name="Sony Sports Ten 2 HD" group-title="Sports" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten2_HD.png",Sony Sports Ten 2 HD
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-ten-3-hd" tvg-name="Sony Sports Ten 3 HD" group-title="Sports" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten3_HD.png",Sony Sports Ten 3 HD
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-ten-4-hd" tvg-name="Sony Sports Ten 4 HD" group-title="Sports" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png",Sony Sports Ten 4 HD
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
+#EXTINF:-1 tvg-id="sony-ten-5-hd" tvg-name="Sony Sports Ten 5 HD" group-title="Sports" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png",Sony Sports Ten 5 HD
+https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
