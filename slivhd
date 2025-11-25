@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U   https://com-jio-media-jiotvplus-st.blogspot.com/?m3u=https://raw.githubusercontent.com/ProTube/IPTV/refs/heads/main/slivhd&json=https://raw.githubusercontent.com/cricindia/sliv/refs/heads/main/sliv.json&prefix=https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=
 #EXTINF:-1 tvg-id="sony-hd" tvg-name="SET HD" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png",SET HD
 https://exoplayermix.m3u8https://in4.dtvxtream.com/restream-v5.php?url=https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1764084967~acl=/*~id=18904070947438190465038563773975~hmac=199e25dfef5c3bbfcd806f298b5b1ab73acda9bc02ce1afb17c97e0e28026604
 #EXTINF:-1 tvg-id="sony-sab-hd" tvg-name="Sony SAB HD" group-title="Entertainment" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",Sony SAB HD
