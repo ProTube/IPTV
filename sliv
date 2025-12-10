@@ -25,10 +25,6 @@ https://exoplayermix.m3u8https://allottplay.com/tv/toffee/live.php?id=sonyaath
 https://exoplayermix.m3u8https://allinonereborn.online/lion.m3u8/live.php?id=281769
 
 
-#EXTINF:-1 tvg-logo="https://c.evidon.com/pub_logos/2796-2021122219404475.png" group-title="SONYLIV", Sony Kal
-https://exoplayermix.m3u8-spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
-
-
 #EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009252" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" group-title="SONYLIV", Sony BBC Earth HD
 https://exoplayermix.m3u8https://allottplay.com/tv/toffee/live.php?id=sonybbc_earth_hd
 
@@ -51,43 +47,3 @@ https://exoplayermix.m3u8https://allottplay.com/tv/toffee/live.php?id=sony_max_h
 
 #EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000044878" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png" group-title="SONYLIV", Sony MAX2
 https://exoplayermix.m3u8https://allottplay.com/tv/toffee/live.php?id=sonymax_2
-
-
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009280" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 1
-https://exoplayermix.m3u8https://yflix.top/sliv1/live.php?id=1000009280&e.m3u8
-
-
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009279" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 2
-https://exoplayermix.m3u8https://yflix.top/sliv1/live.php?id=1000009279&e.m3u8
-
-
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009283" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen3_SD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 3
-https://exoplayermix.m3u8https://yflix.top/sliv1/live.php?id=1000009283&e.m3u8
-
-
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000119187" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 4
-https://exoplayermix.m3u8https://yflix.top/sliv1/live.php?id=1000119187&e.m3u8
-
-
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009281" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 5
-https://exoplayermix.m3u8https://yflix.top/sliv1/live.php?id=1000009281&e.m3u8
-
-
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009276" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 1 HD
-https://exoplayermix.m3u8https://yflix.top/sliv1/live.php?id=1000009276&e.m3u8
-
-
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009277" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 2 HD
-https://exoplayermix.m3u8https://yflix.top/sliv1/live.php?id=1000009277&e.m3u8
-
-
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009278" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen3_HD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 3 HD
-https://exoplayermix.m3u8https://yflix.top/sliv1/live.php?id=1000009278&e.m3u8
-
-
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000119186" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 4 HD
-https://exoplayermix.m3u8https://yflix.top/sliv1/live.php?id=1000119186&e.m3u8
-
-
-#EXTINF:-1 group-logo="https://i.ibb.co/q9b5TMJ/fallback-sonyliv-logo-1.png" tvg-id="1000009275" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="SONYLIV", Sony TEN 5 HD
-https://exoplayermix.m3u8https://yflix.top/sliv1/live.php?id=1000009275&e.m3u8
