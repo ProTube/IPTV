@@ -10,16 +10,13 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebiharjharkhand/default/manifest.
 #KODIPROP:inputstream.adaptive.license_key=50e714b65ead453cbfab9b20bed5c79d:bc08e108b9ee4f65b99cb9dad9532f3f
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeekannada/default/manifest.mpd
 
-#EXTINF:-1 tvg-name="Zee TV SD" tvg-logo="https://images.seeklogo.com/logo-png/38/2/zee-tv-logo-png_seeklogo-384620.png",Zee TV SD
+#EXTINF:-1 tvg-name="Zee TV SD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRZrYdQwpX9jMFxolr1B2vKa_4Ougd6vMrn6fUfNIfoKUO44G9RaEXRCnlfPFjmO2elzfx91poN5Iug9rXkEXlGaKVEzhDAP-7hXTOqWhtkCSa9ET22ZIq_0uZmAJDCCIsvCBGaTI4eswJhK49juaJ1HnmmXRC6Mzg2KaO9Es_9oR18qO9V80bXbCDPqw/s1600/Zee-TVSDlogo.png",Zee TV SD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ed068cf84f0640ccbc7c0e395c0a272e:bb722190f2bb446391020411a7d0828b
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_TV_HD.png" group-title="voot",Zee TV HD
 https://exoplayermix.m3u8https://mini.allinonereborn.fun/ze/live.php?id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105531/ZeeTVHDMSLELE/index-connected.m3u8&token=JITENDRA_KUMAR&e.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/38/2/zee-tv-logo-png_seeklogo-384620.png" group-title="voot",Zee TV SD
-https://exoplayermix.m3u8https://mini.allinonereborn.fun/ze/live.php?id=https://z5ak-cmaflive.zee5.com/cmaf/live/2105536/ZeeTVELE/master.m3u8&token=JITENDRA_KUMAR&e.m3u8
 
 #EXTINF:-1 tvg-name="Zee Telugu HD" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/6vNzRaRK.png",Zee Telugu HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
