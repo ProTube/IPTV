@@ -4,12 +4,11 @@
 #EXTINF:-1 group-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTQedmmDd0fi8gnsGzbGPwu-oePiO-F2kpaCqa-NpaijBipCSsI9vuRCd81aTFT10-bazXvQFyHe4zg3IgMX8Y899VwpGsIFUdezHDKK2QfJevSoDUv5wDd8ygJZSAy1YFutnWs5iZndpv1kNtkTNsvBdXU-VsCOD0Jeq6zJ6HT4Ze5QTkBFnUk8QeEMcD/s1600/jcinema.png" tvg-id="1000119186" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTQedmmDd0fi8gnsGzbGPwu-oePiO-F2kpaCqa-NpaijBipCSsI9vuRCd81aTFT10-bazXvQFyHe4zg3IgMX8Y899VwpGsIFUdezHDKK2QfJevSoDUv5wDd8ygJZSAy1YFutnWs5iZndpv1kNtkTNsvBdXU-VsCOD0Jeq6zJ6HT4Ze5QTkBFnUk8QeEMcD/s1600/jcinema.png" group-title="JioCinema", Motu Patlu
 https://exoplayermix.m3u8https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
 
-#EXTINF:-1 group-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkiV7mkmnp3KzEgwIOayHxIK8Tx0qIQo_eOFfF7bkIKUM9MGJ_mmgBkDPOwJ5hEYCVL9wiTq11Kyn9oZ2sUtBCHMq_UdLn1n5rGJEgFhHKKWeVLIh2x2dsH7gNO6JQjBHVsVNbikcKZCXqGHxEKJCzSWw1R3QH-uxsvaFWPWBImOERsL5hFqHN_j3YHHYU/s1600/wowkidz.png" tvg-id="1000009275" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkiV7mkmnp3KzEgwIOayHxIK8Tx0qIQo_eOFfF7bkIKUM9MGJ_mmgBkDPOwJ5hEYCVL9wiTq11Kyn9oZ2sUtBCHMq_UdLn1n5rGJEgFhHKKWeVLIh2x2dsH7gNO6JQjBHVsVNbikcKZCXqGHxEKJCzSWw1R3QH-uxsvaFWPWBImOERsL5hFqHN_j3YHHYU/s1600/wowkidz.png" group-title="JioCinema", Wow Kidz
-https://exoplayermix.m3u8https://ekanno.vercel.app/live/wow-kidz-hindi.m3u8
-
 #EXTINF:-1 group-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png" tvg-id="1000009275" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png" group-title="JioCinema", Star Sports 1
 https://exoplayermix.m3u8https://xfireflix.fun/CricHD/stream.php?id=star1in
 
 #EXTINF:-1 group-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png" tvg-id="1000009275" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png" group-title="JioCinema", Star Sports 1 Hindi
 https://exoplayermix.m3u8https://xfireflix.fun/CricHD/stream.php?id=starhindi
-<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
+
+#EXTINF:-1 group-logo="https://m.media-amazon.com/images/M/MV5BMzFiNTVkZjYtM2I3Yi00MGNjLWEyYTAtMGViNGExZmMzMGMzXkEyXkFqcGc@._V1_.jpg" tvg-id="1000009275" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzFiNTVkZjYtM2I3Yi00MGNjLWEyYTAtMGViNGExZmMzMGMzXkEyXkFqcGc@._V1_.jpg" group-title="JioCinema", Dhurandhar Movie 2025
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1008933/stream.mkv?api_key=9b1b350c374c4532bebc9b365314387f&Static=true&MediaSourceId=mediasource_1008933&DeviceId=813826d4-20ba-475a-9cd6-9a105ae5df99
