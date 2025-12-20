@@ -1,0 +1,98 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/cricindia/runn_tv/refs/heads/main/epg.xml"
+
+#EXTINF:-1 tvg-id="58" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/9XJALW/Mobile/thumbnail/1fc78aac-ac76-4f74-b0da-0b889cff39f8.png" group-title="Music",9X Jalwa
+https://9x.cdn.runn.tv/9X_Jalwa/master.m3u8
+#EXTINF:-1 tvg-id="57" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/RUN9XM/Mobile/thumbnail/16b5daaf-45b7-4c22-a6ca-a5b81b472403.png" group-title="Music",9XM
+https://9x.cdn.runn.tv/9XM/master.m3u8
+#EXTINF:-1 tvg-id="54" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/APKADT/Web/thumbnail/cdba5a41-acf5-4b89-ae0a-ddb2fb8820a6.png" group-title="News",Aap ki Adalat
+https://indiatv.cdn.runn.tv/v1/vglive-sk-912213/main.m3u8
+#EXTINF:-1 tvg-id="65" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/ABPASM/Mobile/thumbnail/8574857e-c550-4838-97b9-9b971c1d8976.png" group-title="News",ABP Asmita
+https://abpnews.cdn.runn.tv/2042876/asmita/master.m3u8
+#EXTINF:-1 tvg-id="64" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/ABPMAJ/Mobile/thumbnail/f07ad06d-c6ef-4154-a888-baeb3455205b.png" group-title="News",ABP Majha
+https://abpnews.cdn.runn.tv/2042872/majha/master.m3u8
+#EXTINF:-1 tvg-id="20" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/ABPNEW/Web/thumbnail/logo_web.png" group-title="News",ABP NEWS
+https://abpnews.cdn.runn.tv/2042871-b/abpnews/master.m3u8
+#EXTINF:-1 tvg-id="62" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/B4UBHO/Mobile/thumbnail/7904ddf9-245b-42bf-ba57-dc482fbb41f7.png" group-title="Movies",B4U Bhojpuri
+https://b4u.cdn.runn.tv/B4U_Bhojpuri/master.m3u8
+#EXTINF:-1 tvg-id="61" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/B4UKAD/Web/thumbnail/4b80eee0-6cf3-4448-983d-cf7da7e9a44d.png" group-title="Movies",B4U Kadak
+https://b4u.cdn.runn.tv/B4U_Kadak/master.m3u8
+#EXTINF:-1 tvg-id="59" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/B4UMOV/Mobile/thumbnail/da5513b7-b46e-4a45-9c56-08a4f2fc7d86.png" group-title="Movies",B4U Movies
+https://b4u.cdn.runn.tv/B4U_Movies/master.m3u8
+#EXTINF:-1 tvg-id="60" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/B4UMUS/Mobile/thumbnail/a7139e1a-3391-412c-9478-f8feb183f143.png" group-title="Music",B4U Music
+https://b4u.cdn.runn.tv/B4U_Music/master.m3u8
+#EXTINF:-1 tvg-id="80" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/CARCAR/Mobile/thumbnail/54317851-3356-4b71-85af-f36b5c0250ae.png" group-title="Kids",Cartoon TV
+https://streams2.sofast.tv/ptnr-runntv/title-CARTOON_TV/sofastplayout/3e3230ae-4664-4ba3-9ea7-15c06471d5ce_0_HLS/manifest.m3u8
+#EXTINF:-1 tvg-id="2" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_CINSHF/Web/thumbnail/logo_web.png" group-title="Entertainment",Cineshorts Premiere
+https://playout.runn.tv/playout/v1/stream/p_cinshf/playlist.m3u8
+#EXTINF:-1 tvg-id="82" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/CRIUSA/Mobile/thumbnail/88e00abc-1b7b-45a9-b2e9-5bbed8a756e8.png" group-title="Sports",Cricket Gold USA
+https://streams2.sofast.tv/ptnr-runntv/title-CricketGold/sofastplayout/CricketGold/manifest.m3u8
+#EXTINF:-1 tvg-id="93" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/DIVBHA/Mobile/thumbnail/c545dbe3-3a90-41dd-addf-2012badf35a4.png" group-title="Spiritual",Divya Bhajan
+https://pitaaratv.cdn.runn.tv/ptnr-RUNNTV/title-Divya_Bhajan_NONSSAI/v1/vglive-sk-987805/playlist.m3u8
+#EXTINF:-1 tvg-id="66" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/DIVDIV/Mobile/thumbnail/2e4bed94-9351-4ca8-9e99-9b2b6795ae5d.png" group-title="Spiritual",Divya TV
+https://pitaaratv.cdn.runn.tv/ptnr-RunnTV/title-DivyaTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-906482/playlist.m3u8
+#EXTINF:-1 tvg-id="83" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/DRIDRI/Mobile/thumbnail/61491ba4-e10b-41dc-aafc-da010990a4fc.png" group-title="Entertainment",Drive
+https://streams2.sofast.tv/ptnr-runntv/title-DRIVE__SPEED/sofastplayout/2f833f43-9e48-4a6e-88a8-8d99c32eb898_0_HLS/manifest.m3u8
+#EXTINF:-1 tvg-id="84" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/FIGFIG/Mobile/thumbnail/d6897b5a-de4d-4655-943a-106aafa7d130.png" group-title="Sports",Fight TV
+https://streams2.sofast.tv/ptnr-runntv/title-FIGHT-TV-ENG/sofastplayout/2c1b92e0-9ef4-41b1-9713-ba53b562e94c_0_HLS/manifest.m3u8
+#EXTINF:-1 tvg-id="85" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/GOAGOA/Mobile/thumbnail/6bb1bd7a-25c7-47fd-aa07-43c3155e73a8.png" group-title="Sports",Goal TV
+https://streams2.sofast.tv/ptnr-runntv/title-Goal_TV/sofastplayout/WiseM3U8_1/master.m3u8
+#EXTINF:-1 tvg-id="94" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/GREGLD/Mobile/thumbnail/3db87275-f469-4f9d-8ee5-b6cd5fa3a039.png" group-title="Kids",Green Gold TV
+https://greengold.cdn.runn.tv/greengold/stream/grngld/playlist.m3u8
+#EXTINF:-1 tvg-id="86" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/HOOHOO/Mobile/thumbnail/9eedcb6c-542b-4153-b5f9-524f0b6b0e5e.png" group-title="Entertainment",Hoop TV
+https://streams2.sofast.tv/ptnr-runntv/title-Hoop_TV/WiseM3U8_28/sofast/cleanhls/master.m3u8
+#EXTINF:-1 tvg-id="19" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/INDIA_TV/Web/thumbnail/863443d2-7b28-41a2-8593-a59e0e431a85.png" group-title="Entertainment",INDIA TV
+https://indiatv.cdn.runn.tv/v1/vglive-sk-274906/main.m3u8
+#EXTINF:-1 tvg-id="55" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/INDTVY/Web/thumbnail/aecf3b8e-1ad3-40b0-a997-c68cf372cb81.png" group-title="Spiritual",India TV Yoga
+https://indiatv.cdn.runn.tv/v1/vglive-sk-385006/main.m3u8
+#EXTINF:-1 tvg-id="90" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/MASBEA/Mobile/thumbnail/394ff63c-0f7e-4000-a098-3e9f081e555c.png" group-title="Kids",Masha and the Bear
+https://amg01954-amg01954c2-runntv-india-9913.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01954-animaccordltd-mashaandthebeareng-runntvindia/playlist.m3u8
+#EXTINF:-1 tvg-id="87" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/MMAATV/Mobile/thumbnail/aa2ac48f-d5f3-4ad9-9025-19579e98b30e.png" group-title="Sports",MMA TV
+https://streams2.sofast.tv/ptnr-runntv/title-MMA/vglive-sk-462904/playlist.m3u8
+#EXTINF:-1 tvg-id="12" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_NAVBHT/Web/thumbnail/logo_web.png" group-title="News",Navbharat
+https://a66fd974d289494994f6cf39649c806d.mediatailor.ap-south-1.amazonaws.com/v1/master/d367f9b863a7a04827f71ecab4cbeeb11f78a827/navbharat/master.m3u8
+#EXTINF:-1 tvg-id="31" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/NEWNAT/Web/thumbnail/NEWS NATION Channel Logo.png" group-title="News",News Nation
+https://newsnation.cdn.runn.tv/nnnational/index.m3u8
+#EXTINF:-1 tvg-id="36" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/NNATUK/Web/thumbnail/aa098647-c807-4387-9be0-61289f46ad44.png" group-title="News",News State UP/UK
+https://newsnation.cdn.runn.tv/nnup/index.m3u8
+#EXTINF:-1 tvg-id="44" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/TV9NEWS9/Web/thumbnail/f39177fb-49a6-4104-9ccc-db5ee3354e73.png" group-title="News",News9
+https://tv9live.cdn.runn.tv/title-News9_Non_SSAI/v1/vglive-sk-791223/main.m3u8
+#EXTINF:-1 tvg-id="40" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/BLYFLX/Web/thumbnail/a3b425cc-d6bd-4618-b78f-27c875df5da5.png" group-title="Movies",NH BollyFlix
+https://nh-runntv-blyflx.cdn.runn.tv/nhstdz/stream/blyflx/playlist.m3u8
+#EXTINF:-1 tvg-id="39" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/BLYGLD/Web/thumbnail/d4eada62-e3ab-48b9-afe7-44942db7cf00.png" group-title="Entertainment",NH BollyGold
+https://nh-runntv-blygld.cdn.runn.tv/nhstdz/stream/blygld/playlist.m3u8
+#EXTINF:-1 tvg-id="41" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/BLYRAG/Web/thumbnail/edac5b07-addf-45c8-97fb-77af5ff4831b.png" group-title="Music",NH BollyRaga
+https://nh-runntv-blyrag.cdn.runn.tv/nhstdz/stream/blyrag/playlist.m3u8
+#EXTINF:-1 tvg-id="1" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_NUNUTV/Web/thumbnail/logo_mobile.png" group-title="Kids",NuNu TV
+https://playout.runn.tv/playout/v1/stream/p_nunutv/playlist.m3u8
+#EXTINF:-1 tvg-id="34" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/JAGRAN/Web/thumbnail/988b33e9-8db1-44ee-82e7-6ba6aaf0d753.png" group-title="Entertainment",OnlyMyHealth
+https://playout.runn.tv/playout/v1/stream/jagran/playlist.m3u8
+#EXTINF:-1 tvg-id="38" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/PITCOM/Web/thumbnail/7dbe24ad-ae8e-4f50-a44c-dd7b2ea97ccc.png" group-title="Entertainment",Pitaara Comedy
+https://pitaaratv.cdn.runn.tv/ptnr-RunnTV/title-Pitaara_Comedy/v1/vglive-sk-217489/playlist.m3u8
+#EXTINF:-1 tvg-id="37" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/PITARA/Web/thumbnail/f80dc323-cd86-4001-ae97-f22f66da030b.png" group-title="Entertainment",Pitaara TV
+https://pitaaratv.cdn.runn.tv/ptnr-RunnTV/title-PitaaraTV_NonSSAI/v1/vglive-sk-326599/playlist.m3u8
+#EXTINF:-1 tvg-id="4" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_PKTFLM/Web/thumbnail/logo_web.png" group-title="Entertainment",Pocket Films
+https://pktflm.cdn.runn.tv/runntv/stream/p_pktflm/playlist.m3u8
+#EXTINF:-1 tvg-id="7" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_RUNACT/Web/thumbnail/logo_web.png" group-title="Entertainment",Runn Action
+https://d75f61259af04d9ea002d5429c934854.mediatailor.ap-south-1.amazonaws.com/v1/master/d367f9b863a7a04827f71ecab4cbeeb11f78a827/RUNACT/index.m3u8
+#EXTINF:-1 tvg-id="10" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_RUNSHF/Web/thumbnail/logo_web.png" group-title="Entertainment",Runn Short Films
+https://playout.runn.tv/playout/v1/stream/p_runshf/playlist.m3u8
+#EXTINF:-1 tvg-id="11" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_RUNTHR/Web/thumbnail/logo_web.png" group-title="Entertainment",Runn Thrillers
+https://f15f7fbdcd084ff3abb9dc148b69d8b4.mediatailor.ap-south-1.amazonaws.com/v1/master/d367f9b863a7a04827f71ecab4cbeeb11f78a827/RUNTHR/index.m3u8
+#EXTINF:-1 tvg-id="15" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_SMRBOL/Web/thumbnail/logo_web.png" group-title="Movies",Shemaroo Bollywood
+https://smr-runntv-blywd.cdn.runn.tv/shemaroo/stream/smrbol/playlist.m3u8
+#EXTINF:-1 tvg-id="16" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_SMRFGN/Web/thumbnail/logo_web.png" group-title="Music",Shemaroo Filmigaane
+https://smr-runntv-flmgn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8
+#EXTINF:-1 tvg-id="56" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/SPDNWS/Web/thumbnail/4548a0b5-230a-4d7d-a6a8-97b48954c8be.png" group-title="News",Speed News
+https://indiatv.cdn.runn.tv/v1/vglive-sk-479089/main.m3u8
+#EXTINF:-1 tvg-id="29" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_SUPJIO/Web/thumbnail/62d65198-5f33-4640-9ebf-d80d94d23507.png" group-title="Entertainment",Superfine Films
+https://supflm.cdn.runn.tv/runntv/stream/p_supjio/playlist.m3u8
+#EXTINF:-1 tvg-id="6" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/P_TTTFLM/Web/thumbnail/logo_web.png" group-title="Entertainment",Terribly Tiny Tales
+https://playout.runn.tv/playout/v1/stream/p_tttflm/playlist.m3u8
+#EXTINF:-1 tvg-id="45" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/TV9BHA/Web/thumbnail/4eaef931-e0a5-449e-90aa-aa4da623b0c0.png" group-title="News",TV9 Bharatvarsh
+https://tv9live.cdn.runn.tv/title-TV9_Bharathvarsh_Non_SSAI/v1/vglive-sk-301666/main.m3u8
+#EXTINF:-1 tvg-id="92" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/TV9MAR/Mobile/thumbnail/ae52c8c0-1da5-4083-998d-64b094f441b2.png" group-title="News",TV9 Marathi
+https://tv9live.cdn.runn.tv/ptnr-RunnTV/title-TV9_Marathi_Non_SSAI/v1/vglive-sk-692706/main.m3u8
+#EXTINF:-1 tvg-id="91" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/TV9TEL/Mobile/thumbnail/8266b9a7-0c86-4afd-b655-0740ec7605c2.png" group-title="News",TV9 Telugu
+https://tv9live.cdn.runn.tv/ptnr-RunnTV/title-TV9_Telugu_Non_SSAI/v1/vglive-sk-121537/main.m3u8
+#EXTINF:-1 tvg-id="88" tvg-logo="https://dnuk7lvye3m03.cloudfront.net/runntv/platform/channels/XTRSPO/Mobile/thumbnail/c72df825-0310-4388-bdc4-26855d832871.png" group-title="Sports",XTREM Sports
+https://streams2.sofast.tv/ptnr-runntv/title-XTREM-SPORTS-ENG/sofastplayout/dd07c1bf-9b89-4e56-b819-224b2bbcd807_0_HLS/manifest.m3u8
