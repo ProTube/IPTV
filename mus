@@ -1,0 +1,163 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="1129" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Maa_Music.png",Maa Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=80cfb1a6a4b251dd9b9ae92782a35917:b4cd88f5d71fe94993dd3476cdd63f33
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Maa_Music_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="1189" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/PTC_Music.png",PTC Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eea8cf8faf9c51688a49c5fe403a0a26:d1fade971fcbc766db521bf2614eb611
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/PTC_Music_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="1193" group-title="Devotional" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Hare_Krsna_music.png",Hare Krsna Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=33469725a18854549ac66d3c9c39aa81:d2b9a8e3b5aae1b0a0b3308a366517d5
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Hare_Krsna_music_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="1871" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/7X_Music.png",7X Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1ada03e07ec55e219053dac84dcc4e40:7f0357b078f2b3dd683fbf6d1d182135
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/7X_Music_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="2252" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Desi_Music_Station.png",Desi Music Station
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e5c53427c790509ca9bf36e49b60b9fe:01705766fa40219ff290c2685e71a300
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Desi_Music_Station_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="250" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Music_India.png",Music India
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d08f7a69f83a5e41b9d246bba079bd5f:122e5ea9772f5d997288881009a9386b
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Music_India_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="2750" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Saga_Music.png",Saga Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=68908c0680025c7a95d41787f6ca7288:3c53b4dc1e37c86744e6812205c0c282
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Saga_Music_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="2751" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Saga_Music_Haryanvi.png",Saga Music Haryanvi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=67e52f4bdcfc525898be0446feb7f185:8cf5c24b168105bca24b358eb05f6df4
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Saga_Music_Haryanvi_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="2753" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/YRF_Music.png",YRF Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0bda0906c20f50eb8d14e16c2e2df738:1ef0f7b3a9689cc63963ce0b25afa518
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/YRF_Music_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="2936" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Oye_Music.png",Oye Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=74e557962125591d9ddb93cd80ef0683:5e9283e0ba0b450134019715644ddecf
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Oye_Music_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="3006" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Dhoom_Music_Bangla.png",Dhoom Music Bangla
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3dafc8ce3408532bba279965c4231dbf:c3032051188ae87bf03c470504fd54b0
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Dhoom_Music_Bangla_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="737" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_Music_Telugu.png",Raj Music Telugu
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bdba733dc0735bbfacf5772c335080ff:9c95e3da7824ecf4f959efde7b080b29
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Raj_Music_Telugu_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="739" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_Music_Malayalam.png",Raj Music Malayalam
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9187456feb6d567193629ac7ca7eebb3:5831a70275b3c42972bee0abdbd8895c
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Raj_Music_Malayalam_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="742" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/mh1_Music.png",mh1 (Music)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=667da4dd21c7520d9c01286ef0cb3831:af680e43a6dcfec6a89d0b1b5da040e0
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/mh1_Music_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="743" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_Music_Kannada.png",Raj Music Kannada
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=13c93012e8895b44a32535d84ce4e218:8acfe4d1ff01800dfdb6c8f2df3bf617
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Raj_Music_Kannada_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="744" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Udaya_Music.png",Udaya Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=60b098f49c995f8ab01f093833ffa7ea:21fa4199211c7f0f682d8ef6c2198683
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Udaya_Music_MOB/WDVLive/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="747" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Surya_Music.png",Surya Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6dec22d787845c828b7e7b08c4036cf6:b46904ae1a6fcae716b8e8cdf78de849
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Surya_Music_MOB/WDVLive/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="773" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Public_Music.png",Public Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b871d5e17c4850498bc41edfc90a28a2:6fac6ba58b256d7acec032aef5c32f27
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Public_Music_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="895" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sun_Music_HD.png",Sun Music HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fa0c0f2dd6ce50208b77e16976e38d90:7f83a8e5178b6562d81968886fc3fe8a
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sun_Music_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="898" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Gemini_Music_HD.png",Gemini Music HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=548c049108f95c3b81ea4befee5a3aae:5d3e71b422b7cc2f782c87f600e5a5b4
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Gemini_Music_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-id="903" group-title="Music" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Only_Music.png",Only Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=05d6e48cf40254eaa6fb806cc9d0c907:e39bc0abf11b5d58babc60c477af63b0
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie":"__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Only_Music_BTS/output/index.mpd?__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35&xxx=%7C__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35kie=__hdnea__=st=1766220593~exp=1766306992~acl=/*~hmac=e58dc362c8bcad1140e2d0a1953c8a4386d78ca91bbb2b8019f11eea8482ce35
+
+#EXTINF:-1 tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/9xMedia/9XM/9xm_logo_resized_white_400x200.png",9XM
+https://amg01281-amg01281c4-amgplt0173.playout.now3.amagi.tv/playlist/amg01281-amg01281c4-amgplt0173/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/9xMedia/9XJALWA/9xjalwa400x200_logo.jpg",334 9XJALWA
+https://amg01281-amg01281c3-amgplt0173.playout.now3.amagi.tv/playlist/amg01281-amg01281c3-amgplt0173/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/9xMedia/9XTashan/9xtashan400x200_logo.jpg",9XTashan
+https://amg01281-amg01281c2-amgplt0173.playout.now3.amagi.tv/playlist/amg01281-amg01281c2-amgplt0173/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/9xMedia/9XJhakkas/9xjahakas400x200_logo.jpg",9XJhakkas
+https://amg01281-amg01281c1-amgplt0173.playout.now3.amagi.tv/playlist/amg01281-amg01281c1-amgplt0173/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/B4U/B4U_MUSIC/b4u_music_logo_resized_400x200.png",B4U Music
+https://amg00877-b4unew-amg00877c3-lg-in-5261.playouts.now.amagi.tv/playlist/amg00877-b4unetworkeuropefast-b4umusic-lgin/playlist.m3u8
