@@ -154,32 +154,32 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/index.mpd
 #EXTINF:-1 tvg-id="185" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/And_Pictures_HD.png" group-title="Movies",And Pictures HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=09187bccb7ec59428352a31b4b321ce0:25b08b1c7a004e43ef92c239f93e6613
-https://jiotvmblive.cdn.jio.com/bpk-tv/AndPicturesHD_MOB/WDVLive/index.mpd
+https://jiotvpllive.cdn.jio.com/bpk-tv/AndPicturesHD_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="472" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/And_TV_HD.png" group-title="Entertainment",And TV HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3698f70a682b503599cbc0fcae1f4df4:91a7ebf70d1fd76f59b9970c9525dad7
-https://jiotvmblive.cdn.jio.com/bpk-tv/AndTVHD_MOB/WDVLive/index.mpd
+https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1349" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/And_Prive_HD.png" group-title="Movies",And Prive HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5060ddebb51c57a1825a18ca70e24014:e61277adab8ff7dd8314ae0287556787
-https://jiotvmblive.cdn.jio.com/bpk-tv/AndPriveHD_MOB/WDVLive/index.mpd
+https://jiotvpllive.cdn.jio.com/bpk-tv/AndPriveHD_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1668" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/And_Xplore_HD.png" group-title="Movies",And Xplore HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=67e52f4bdcfc525898be0446feb7f185:8cf5c24b168105bca24b358eb05f6df4
-https://jiotvmblive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/output/index.mpd
+https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/output/index.mpd
 
 #EXTINF:-1 tvg-id="1839" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/And_Pictures.png" group-title="Movies",And Pictures
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5d495d29b3e754748389f04dab476c89:2509aac0c21ca795b28d3e3ed3ad96df
-https://jiotvmblive.cdn.jio.com/bpk-tv/AndPictures_MOB/WDVLive/index.mpd
+https://jiotvpllive.cdn.jio.com/bpk-tv/AndPictures_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="2024" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/And_TV.png" group-title="Entertainment",And TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=180f52b10a4b56f09938a80799d7c83c:47540d440b2e079c0a546a28072ddedc
-https://jiotvmblive.cdn.jio.com/bpk-tv/AndTV_MOB/WDVLive/index.mpd
+https://jiotvpllive.cdn.jio.com/bpk-tv/AndTV_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-name="Shorts Tv Active" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/lcMc75Xr.png",Shorts Tv Active
 #KODIPROP:inputstream.adaptive.license_type=clearkey
