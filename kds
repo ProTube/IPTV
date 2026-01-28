@@ -1,0 +1,26 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="550" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Kids_Tamil.png" group-title="Kids",Discovery Kids Tamil
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1766233665~exp=1766320065~acl=/*~hmac=15940eee9b12a40a9244fda6d4f80188a945052f72ef5d5633643b53efe879ca"}
+#KODIPROP:inputstream.adaptive.license_key=527df4ddb18a530db7565fff6c06263f:b4ca95df03a230ba8e23a7226de77d05
+https://jiotvmblive.cdn.jio.com/bpk-tv/Discovery_Kids_Tamil_MOB/WDVLive/index.mpd__hdnea__=st=1769561442~exp=1769647842~acl=/*~hmac=7281b9661e02305acc1f20fa738542c2b5c534f9b50404e0ded4e191b08ab130
+
+#EXTINF:-1 tvg-id="554" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Kids_2.png" group-title="Kids",Discovery Kids 2
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1766233665~exp=1766320065~acl=/*~hmac=15940eee9b12a40a9244fda6d4f80188a945052f72ef5d5633643b53efe879ca"}
+#KODIPROP:inputstream.adaptive.license_key=e921b8507a5e5cd1bb4433b3fd1f5e0a:037835bab43e7ef4a41a97c638cd9c1d
+https://jiotvmblive.cdn.jio.com/bpk-tv/Discovery_Kids_2_BTS/output/index.mpd__hdnea__=st=1769561442~exp=1769647842~acl=/*~hmac=7281b9661e02305acc1f20fa738542c2b5c534f9b50404e0ded4e191b08ab130
+
+#EXTINF:-1 tvg-id="1430" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jio_KIDS.png" group-title="Kids",Jio KIDS
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1766233665~exp=1766320065~acl=/*~hmac=15940eee9b12a40a9244fda6d4f80188a945052f72ef5d5633643b53efe879ca"}
+#KODIPROP:inputstream.adaptive.license_key=null:null
+https://jiotvmblive.cdn.jio.com/bpk-tv/Jio_KIDS_BTS/output/index.mpd__hdnea__=st=1769561442~exp=1769647842~acl=/*~hmac=7281b9661e02305acc1f20fa738542c2b5c534f9b50404e0ded4e191b08ab130
+
+#EXTINF:-1 tvg-id="2774" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Power_Kids_TV.png" group-title="Kids",Power Kids TV
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1766233665~exp=1766320065~acl=/*~hmac=15940eee9b12a40a9244fda6d4f80188a945052f72ef5d5633643b53efe879ca"}
+#KODIPROP:inputstream.adaptive.license_key=c867e6bb8e41561681e815aecdf83add:f2d8855d3b06319bbb471f0db395a1d9
+https://jiotvmblive.cdn.jio.com/bpk-tv/Power_Kids_TV_BTS/output/index.mpd__hdnea__=st=1769561442~exp=1769647842~acl=/*~hmac=7281b9661e02305acc1f20fa738542c2b5c534f9b50404e0ded4e191b08ab130
+
