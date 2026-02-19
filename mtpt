@@ -1,13 +1,13 @@
 
 #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
 
-#EXTINF:-1 tvg-id="173" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_auto/sources/r1/cms/prod/8622/1737971678622-i" group-title="JioCinema", Motu Patlu
+#EXTINF:-1 tvg-id="173" tvg-logo="http://img10.hotstar.com/image/upload/f_auto,q_auto/sources/r1/cms/prod/8622/1737971678622-i" group-title="JioCinema", Motu Patlu
 https://exoplayermix.m3u8https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
 
-#EXTINF:-1 tvg-id="173" tvg-logo="https://stat5.bollywoodhungama.in/wp-content/uploads/2026/02/O-Romeo-09.jpeg" group-title="News",O Romeo 2026
+#EXTINF:-1 tvg-id="173" tvg-logo="http://stat5.bollywoodhungama.in/wp-content/uploads/2026/02/O-Romeo-09.jpeg" group-title="News",O Romeo 2026
 https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1013660/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1013660&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
-#EXTINF:-1 tvg-id="173" tvg-logo="https://lh5.googleusercontent.com/proxy/a3gv3hk2Qv1u74leTwjOdbyv4MudbbfGlx21FH4VpoSCgN3Y8GZ9P8To1tQXDmDScqqh2R9PMMC_qwgKCFuU_GUFG8HcD4xohFEz4_4tHOa6EA" group-title="News",Dhurandhar 2026
+#EXTINF:-1 tvg-id="173" tvg-logo="http://lh5.googleusercontent.com/proxy/a3gv3hk2Qv1u74leTwjOdbyv4MudbbfGlx21FH4VpoSCgN3Y8GZ9P8To1tQXDmDScqqh2R9PMMC_qwgKCFuU_GUFG8HcD4xohFEz4_4tHOa6EA" group-title="News",Dhurandhar 2026
 https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1011611/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011611&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
 #EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1013673/Images/Primary?maxWidth=3000&tag=67e3a8da243ed5ce2d614d0ec673daae&quality=70" group-title="News",Tu Yaa Main 2026
