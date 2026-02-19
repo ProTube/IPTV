@@ -4,7 +4,7 @@
 #EXTINF:-1 tvg-id="173" tvg-logo="https://images.justwatch.com/poster/46228812/s718/season-1.jpg" group-title="JioCinema", Motu Patlu
 https://exoplayermix.m3u8https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
 
-#EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1013660/Images/Primary?maxWidth=3000&tag=aa3c840a4d7d76d3858ccdc1be748c24&quality=70" group-title="News",O Romeo 2026
+#EXTINF:-1 tvg-id="173" tvg-logo="https://160.187.56.254:8096/emby/Items/1013660/Images/Primary?maxWidth=3000&tag=aa3c840a4d7d76d3858ccdc1be748c24&quality=70" group-title="News",O Romeo 2026
 https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1013660/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1013660&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
 #EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1011611/Images/Primary?maxHeight=738&maxWidth=492&tag=ff9900a8a1be66cb93f14a9951f1057d&keepAnimation=true&quality=70" group-title="News",Dhurandhar 2026
