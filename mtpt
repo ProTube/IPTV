@@ -1,7 +1,7 @@
 
 #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
 
-#EXTINF:-1 tvg-id="173" tvg-logo="https://images.justwatch.com/poster/46228812/s718/season-1.jpg" group-title="JioCinema", Motu Patlu
+#EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1013660/Images/Primary?maxWidth=3000&tag=aa3c840a4d7d76d3858ccdc1be748c24&quality=70" group-title="JioCinema", Motu Patlu
 https://exoplayermix.m3u8https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
 
 #EXTINF:-1 tvg-id="173" tvg-logo="https://160.187.56.254:8096/emby/Items/1013660/Images/Primary?maxWidth=3000&tag=aa3c840a4d7d76d3858ccdc1be748c24&quality=70" group-title="News",O Romeo 2026
