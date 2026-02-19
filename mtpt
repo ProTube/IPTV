@@ -2,25 +2,25 @@
 #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
 
 #EXTINF:-1 group-logo="https://images.justwatch.com/poster/46228812/s718/season-1.jpg" tvg-id="1000119186" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTQedmmDd0fi8gnsGzbGPwu-oePiO-F2kpaCqa-NpaijBipCSsI9vuRCd81aTFT10-bazXvQFyHe4zg3IgMX8Y899VwpGsIFUdezHDKK2QfJevSoDUv5wDd8ygJZSAy1YFutnWs5iZndpv1kNtkTNsvBdXU-VsCOD0Jeq6zJ6HT4Ze5QTkBFnUk8QeEMcD/s1600/jcinema.png" group-title="JioCinema", Motu Patlu
-https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
+https://exoplayermix.m3u8https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
 
 #EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1013660/Images/Primary?maxWidth=3000&tag=aa3c840a4d7d76d3858ccdc1be748c24&quality=70" group-title="News",O Romeo 2026
-http://160.187.56.254:8096/emby/videos/1013660/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1013660&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1013660/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1013660&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
 #EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1011611/Images/Primary?maxHeight=738&maxWidth=492&tag=ff9900a8a1be66cb93f14a9951f1057d&keepAnimation=true&quality=70" group-title="News",Dhurandhar 2026
-http://160.187.56.254:8096/emby/videos/1011611/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011611&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1011611/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011611&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
 #EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1013673/Images/Primary?maxWidth=3000&tag=67e3a8da243ed5ce2d614d0ec673daae&quality=70" group-title="News",Tu Yaa Main 2026
-http://160.187.56.254:8096/emby/videos/1013673/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1013673&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1013673/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1013673&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
 #EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1011688/Images/Primary?maxWidth=3000&tag=073807780770564a83840f4b20e01ffc&quality=70" group-title="News",Mardaani 3 2026
-http://160.187.56.254:8096/emby/videos/1011688/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011688&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1011688/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011688&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
 #EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1011198/Images/Primary?maxWidth=3000&tag=845b38ba5189f7b1b02a7e6e53f6b10b&quality=70" group-title="News",Border 2 2026
-http://160.187.56.254:8096/emby/videos/1011198/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011198&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1011198/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011198&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
 #EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1011585/Images/Primary?maxWidth=3000&tag=149735d6482f60e2a9f8094d0f6b3e3f&quality=70" group-title="News",Cheekatilo 2026
-http://160.187.56.254:8096/emby/videos/1011585/stream.mp4?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011585&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1011585/stream.mp4?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011585&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
 #EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1010654/Images/Primary?maxWidth=3000&tag=efd611bbf3696c63b59adbddf41d7329&quality=70" group-title="News",Ikkis 2025
-http://160.187.56.254:8096/emby/videos/1010654/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1010654&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1010654/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1010654&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
