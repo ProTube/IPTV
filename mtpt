@@ -22,5 +22,5 @@ https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1011198/stream.m
 #EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1011585/Images/Primary?maxWidth=3000&tag=149735d6482f60e2a9f8094d0f6b3e3f&quality=70" group-title="News",Cheekatilo 2026
 https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1011585/stream.mp4?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011585&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
-#EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1010654/Images/Primary?maxWidth=3000&tag=efd611bbf3696c63b59adbddf41d7329&quality=70" group-title="News",Ikkis 2025
+#EXTINF:-1 tvg-id="173" tvg-logo="https://play.roarzone.info/emby/Items/1010654/Images/Primary?maxWidth=3000&tag=efd611bbf3696c63b59adbddf41d7329&quality=70" group-title="News",Ikkis 2025
 https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1010654/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1010654&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
