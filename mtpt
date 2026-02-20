@@ -1,25 +1,25 @@
 
 #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
 
-#EXTINF:-1 tvg-id="173" tvg-logo="http://img10.hotstar.com/image/upload/f_auto,q_auto/sources/r1/cms/prod/8622/1737971678622-i" group-title="JioCinema", Motu Patlu
+#EXTINF:-1 tvg-id="173" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_auto/sources/r1/cms/prod/8622/1737971678622-i" group-title="JioCinema", Motu Patlu
 https://exoplayermix.m3u8https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
 
-#EXTINF:-1 tvg-id="173" tvg-logo="http://stat5.bollywoodhungama.in/wp-content/uploads/2026/02/O-Romeo-09.jpeg" group-title="News",O Romeo 2026
+#EXTINF:-1 tvg-id="173" tvg-logo="https://play.roarzone.info/emby/Items/1013660/Images/Primary?maxWidth=3000&tag=aa3c840a4d7d76d3858ccdc1be748c24&quality=70" group-title="News",O Romeo 2026
 https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1013660/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1013660&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
-#EXTINF:-1 tvg-id="173" tvg-logo="http://lh5.googleusercontent.com/proxy/a3gv3hk2Qv1u74leTwjOdbyv4MudbbfGlx21FH4VpoSCgN3Y8GZ9P8To1tQXDmDScqqh2R9PMMC_qwgKCFuU_GUFG8HcD4xohFEz4_4tHOa6EA" group-title="News",Dhurandhar 2026
+#EXTINF:-1 tvg-id="173" tvg-logo="https://play.roarzone.info/emby/Items/1011611/Images/Primary?maxHeight=738&maxWidth=492&tag=ff9900a8a1be66cb93f14a9951f1057d&keepAnimation=true&quality=70" group-title="News",Dhurandhar 2026
 https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1011611/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011611&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
-#EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1013673/Images/Primary?maxWidth=3000&tag=67e3a8da243ed5ce2d614d0ec673daae&quality=70" group-title="News",Tu Yaa Main 2026
+#EXTINF:-1 tvg-id="173" tvg-logo="https://play.roarzone.info/emby/Items/1013673/Images/Primary?maxWidth=3000&tag=67e3a8da243ed5ce2d614d0ec673daae&quality=70" group-title="News",Tu Yaa Main 2026
 https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1013673/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1013673&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
-#EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1011688/Images/Primary?maxWidth=3000&tag=073807780770564a83840f4b20e01ffc&quality=70" group-title="News",Mardaani 3 2026
+#EXTINF:-1 tvg-id="173" tvg-logo="https://play.roarzone.info/emby/Items/1011688/Images/Primary?maxWidth=3000&tag=073807780770564a83840f4b20e01ffc&quality=70" group-title="News",Mardaani 3 2026
 https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1011688/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011688&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
-#EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1011198/Images/Primary?maxWidth=3000&tag=845b38ba5189f7b1b02a7e6e53f6b10b&quality=70" group-title="News",Border 2 2026
+#EXTINF:-1 tvg-id="173" tvg-logo="https://play.roarzone.info/emby/Items/1011198/Images/Primary?maxWidth=3000&tag=845b38ba5189f7b1b02a7e6e53f6b10b&quality=70" group-title="News",Border 2 2026
 https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1011198/stream.mkv?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011198&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
-#EXTINF:-1 tvg-id="173" tvg-logo="http://160.187.56.254:8096/emby/Items/1011585/Images/Primary?maxWidth=3000&tag=149735d6482f60e2a9f8094d0f6b3e3f&quality=70" group-title="News",Cheekatilo 2026
+#EXTINF:-1 tvg-id="173" tvg-logo="https://play.roarzone.info/emby/Items/1011585/Images/Primary?maxWidth=3000&tag=149735d6482f60e2a9f8094d0f6b3e3f&quality=70" group-title="News",Cheekatilo 2026
 https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/1011585/stream.mp4?api_key=daad7568fa364cecaacc4fe772ee9694&Static=true&MediaSourceId=mediasource_1011585&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
 #EXTINF:-1 tvg-id="173" tvg-logo="https://play.roarzone.info/emby/Items/1010654/Images/Primary?maxWidth=3000&tag=efd611bbf3696c63b59adbddf41d7329&quality=70" group-title="News",Ikkis 2025
