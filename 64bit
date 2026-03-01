@@ -314,7 +314,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports2_Telugu_HD_BTS/output/index.m
 #KODIPROP:inputstream.adaptive.license_key=6576a2664bc1563db2abd4fc192152b2:452e28454297a4193dbdf8f5cebc70b0
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sports18_2_MOB/WDVCatchup/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+https://jiotvbpkmob.cdn.jio.com/bpk-tv/StarSports2Telugu_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
 
 #EXTINF:-1 tvg-id="1998" group-title="Sports" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sports18_Khel.png",Star Sports Khel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
