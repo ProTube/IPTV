@@ -1,3 +1,10 @@
 {
-  "d9025bf5bbe6502cab58edaa0b50750b": "91b5ca6ebefe3a977cb6fcae31868664"
+  "keys":[
+    {
+      "kty":"oct",
+      "kid":"d9025bf5bbe6502cab58edaa0b50750b",
+      "k":"91b5ca6ebefe3a977cb6fcae31868664"
+    }
+  ],
+  "type":"temporary"
 }
