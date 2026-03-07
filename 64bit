@@ -1,10 +1,5 @@
-{
-  "keys": [
-    {
-      "kty": "oct",
-      "kid": "2QJb9bvmUCyrWO2qC1B1Cw",
-      "k": "kbXKbr7-Opd8tvyuMYaGZA"
-    }
-  ],
-  "type": "temporary"
+const drmConfig = {
+  "clearKeys": {
+    "d9025bf5bbe6502cab58edaa0b50750b": "91b5ca6ebefe3a977cb6fcae31868664"
+  }
 }
