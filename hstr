@@ -1,54 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
 
-#EXTINF:-1 tvg-id="155" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png",Sony Ten 5 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=233d5f64b5b1547dae38f5a8b0b85efa:3b000618435f702db7d9910d8265584a
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Six_HD_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
-#EXTINF:-1 tvg-id="162" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png",Sony Ten 1 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=523acf1f55485476817958a62a3f2ed9:52b3cea435ed25d445f9eae4883c7001
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_HD_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
-#EXTINF:-1 tvg-id="204" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Sports.png",DD Sports
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0c1b139b9a955134a1efae8e44b63aac:00897bffd6997049787270797b8c3a17
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/DD_Sports_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
-#EXTINF:-1 tvg-id="514" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png",Sony Ten 1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3394be91407c5fe99d784d2f2d6d4a12:58665e1df41f9f22ed73c56384bb3f51
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_1_MOB/WDVLive/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
-#EXTINF:-1 tvg-id="523" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png",Sony Ten 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_2_MOB/WDVLive/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
-#EXTINF:-1 tvg-id="524" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png",Sony Ten 3 Hindi
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=68318f7c97c55ba6ab8d0398a88fed3e:d312fb3325b4eb9462b4a0d2b6794adf
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_3_MOB/WDVLive/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
-#EXTINF:-1 tvg-id="525" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Six_SD.png",Sony Ten 5
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d2d8709de11d5955b60c57d3c955733e:7655200b24bf82808fb8addf2f02847b
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Sony_Six_SD_MOB/WDVLive/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
 
 #EXTINF:-1 tvg-id="875" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Dsports_HD.png",Eurosport HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -57,19 +9,13 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Sony_Six_SD_MOB/WDVLive/index.mpd?__hdnea
 #EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Dsports_HD_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
 
-#EXTINF:-1 tvg-id="891" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png",Sony Ten 2 HD
+#EXTINF:-1 tvg-id="204" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_Sports.png",DD Sports
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7771cca923225ce08887cbae764e72c6:67d80b71f02d2cd1e4e0ee7b9b752841
+#KODIPROP:inputstream.adaptive.license_key=0c1b139b9a955134a1efae8e44b63aac:00897bffd6997049787270797b8c3a17
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten2_HD_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+https://jiotvpllive.cdn.jio.com/bpk-tv/DD_Sports_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
 
-#EXTINF:-1 tvg-id="892" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png",Sony Ten 3 HD Hindi
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=71719eea0bbb5319a4e854ac52ea7871:752ed8f45c43ed858af4c1716c05241a
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten3_HD_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
 
 #EXTINF:-1 tvg-id="1163" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Jio_Esports_HD.png",JioGames HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -92,34 +38,6 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Dsports_BTS/output/index.mpd?__hdnea__=st
 #EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/MI_TV_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
 
-#EXTINF:-1 tvg-id="1772" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_HD_Tamil.png",Sony Ten 4 HD Tamil
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1dc6cf8863e958f5a8486c944f0bb04f:0d74e2d5ac746450ed827e3f828ee1e4
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_HD_Tamil_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
-#EXTINF:-1 tvg-id="1773" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_HD_Telugu.png",Sony Ten 4 HD Telugu
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5c99be9d8ed654bf90cab4538ece3a5e:ddafcea98ffa2a1840607ab60c467846
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_HD_Telugu_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
-#EXTINF:-1 tvg-id="1774" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_Tamil.png",Sony Ten 4 Tamil
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=null:null
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_Tamil_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
-#EXTINF:-1 tvg-id="1775" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_Telugu.png",Sony Ten 4 Telugu
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=494a8a050ecc5a22adab6dc304ead1b4:9b3bbf2ccb71a876a2bbeb9cde00d7bf
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_Telugu_MOB/WDVLive/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
 #EXTINF:-1 tvg-id="2766" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Brave_TV.png",BRAVE TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=25cf2421cd9c57298e17d0d7b8084e8c:520507b4b9f496970f88c57f5aa59778
@@ -140,20 +58,6 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Red_Bull_TV_BTS/output/index.mpd?__hdnea_
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Lancs_TV_HD_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
-#EXTINF:-1 tvg-id="3056" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_5_HD_Mal.png",Sony Ten 5 HD Malayalam
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=null:null
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_5_HD_Mal_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
-
-#EXTINF:-1 tvg-id="3057" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_5_HD_Ben.png",Sony Ten 5 HD Bengali
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=null:null
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_5_HD_Ben_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
 
 #EXTINF:-1 tvg-id="300" group-title="Sports" tvg-logo="https://img.media.jio.com/tvpimages/96/65/302113_1749664252703_l_medium.jpg",Star Sports Select 1 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -322,3 +226,101 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/StarSports2Telugu_BTS/output/index.mpd?__
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Sports18_Khel_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="155" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png",Sony Ten 5 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=233d5f64b5b1547dae38f5a8b0b85efa:3b000618435f702db7d9910d8265584a
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Six_HD_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="162" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png",Sony Ten 1 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=523acf1f55485476817958a62a3f2ed9:52b3cea435ed25d445f9eae4883c7001
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_HD_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="514" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png",Sony Ten 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3394be91407c5fe99d784d2f2d6d4a12:58665e1df41f9f22ed73c56384bb3f51
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_1_MOB/WDVLive/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="523" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png",Sony Ten 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=671ce7c8ccc95e0a95cba0d12831d12e:175d284c9647b6feb379e7c1650a4f82
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_2_MOB/WDVLive/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="524" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png",Sony Ten 3 Hindi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=68318f7c97c55ba6ab8d0398a88fed3e:d312fb3325b4eb9462b4a0d2b6794adf
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_3_MOB/WDVLive/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="525" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Six_SD.png",Sony Ten 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d2d8709de11d5955b60c57d3c955733e:7655200b24bf82808fb8addf2f02847b
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Sony_Six_SD_MOB/WDVLive/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="891" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png",Sony Ten 2 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7771cca923225ce08887cbae764e72c6:67d80b71f02d2cd1e4e0ee7b9b752841
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten2_HD_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="892" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png",Sony Ten 3 HD Hindi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=71719eea0bbb5319a4e854ac52ea7871:752ed8f45c43ed858af4c1716c05241a
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten3_HD_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="1772" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_HD_Tamil.png",Sony Ten 4 HD Tamil
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1dc6cf8863e958f5a8486c944f0bb04f:0d74e2d5ac746450ed827e3f828ee1e4
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_HD_Tamil_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="1773" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_HD_Telugu.png",Sony Ten 4 HD Telugu
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5c99be9d8ed654bf90cab4538ece3a5e:ddafcea98ffa2a1840607ab60c467846
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_HD_Telugu_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="1774" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_Tamil.png",Sony Ten 4 Tamil
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_Tamil_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="1775" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_Telugu.png",Sony Ten 4 Telugu
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=494a8a050ecc5a22adab6dc304ead1b4:9b3bbf2ccb71a876a2bbeb9cde00d7bf
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_4_Telugu_MOB/WDVLive/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="3056" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_5_HD_Mal.png",Sony Ten 5 HD Malayalam
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_5_HD_Mal_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
+
+#EXTINF:-1 tvg-id="3057" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_5_HD_Ben.png",Sony Ten 5 HD Bengali
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0"}
+https://jiotvpllive.cdn.jio.com/bpk-tv/Ten_5_HD_Ben_BTS/output/index.mpd?__hdnea__=st=1772366131~exp=1772452531~acl=/*~hmac=7c0a336ac7d43756fc427a63303865037f64e33c5a4cb1488aa18bb08b7ae7c0
