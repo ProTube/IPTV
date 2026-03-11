@@ -37,9 +37,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_News_BTS/output/index.mpd?__hdnea__=st
 https://jiotvmblive.cdn.jio.com/bpk-tv/IBN_7_BTS/output/index.mpd?__hdnea__=st=1771054562~exp=1771140962~acl=/*~hmac=665694471cff75cc5ba91b267b8057824842f5b3e8fdc7b52dee479e35a734ff
 
 #EXTINF:-1 tvg-id="232" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/IBN_Lokmat.png" group-title="News",News18 Lokmat
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0 #EXTHTTP:{"cookie":"__hdnea__=st=1771054562~exp=1771140962~acl=/*~hmac=665694471cff75cc5ba91b267b8057824842f5b3e8fdc7b52dee479e35a734ff"}
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=998ad1e9e0a9577cbf5501b9d5a9d8be:c655b64bbb02273246aff7b87cbdbc0b
 https://nw18live.cdn.jio.com/bpk-tv/News18_Lokmat_NW18_MOB/output01/index.m3u8
 
 #EXTINF:-1 tvg-id="235" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/India_TV.png" group-title="News",India TV
