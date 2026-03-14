@@ -1,0 +1,41 @@
+#EXTM3U
+#EXTINF:-1, Link 1
+https://www.google.com
+#EXTINF:-1, Link 2
+https://www.bing.com
+#EXTINF:-1, Link 3
+https://www.wikipedia.org
+#EXTINF:-1, Link 4
+https://www.github.com
+#EXTINF:-1, Link 5
+https://www.reddit.com
+#EXTINF:-1, Link 6
+https://www.yahoo.com
+#EXTINF:-1, Link 7
+https://www.duckduckgo.com
+#EXTINF:-1, Link 8
+https://www.quora.com
+#EXTINF:-1, Link 9
+https://www.medium.com
+#EXTINF:-1, Link 10
+https://www.blogger.com
+#EXTINF:-1, Link 11
+https://www.wordpress.com
+#EXTINF:-1, Link 12
+https://www.imdb.com
+#EXTINF:-1, Link 13
+https://www.apple.com
+#EXTINF:-1, Link 14
+https://www.microsoft.com
+#EXTINF:-1, Link 15
+https://www.amazon.com
+#EXTINF:-1, Link 16
+https://www.netflix.com
+#EXTINF:-1, Link 17
+https://www.spotify.com
+#EXTINF:-1, Link 18
+https://www.twitch.tv
+#EXTINF:-1, Link 19
+https://www.vimeo.com
+#EXTINF:-1, Link 20
+https://www.dailymotion.com
