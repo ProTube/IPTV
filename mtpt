@@ -1,14 +1,14 @@
 
 #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
 
-#EXTINF:-1 tvg-id="173" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_auto/sources/r1/cms/prod/8622/1737971678622-i" group-title="JioCinema", Motu Patlu
-https://exoplayermix.m3u8https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
+#EXTINF:-1 tvg-id="173" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGE2NmNkZTctYjM3OC00Y2YyLWFhYjgtNjgwZWZiNWZlZDMxXkEyXkFqcGc@._V1_.jpg" group-title="JioCinema", Bhooth Bangla 2026
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/190220/stream.mkv?api_key=a61b81f93ec0449e9203f12b0b91b11d&Static=true&MediaSourceId=mediasource_190220&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
-#EXTINF:-1 tvg-id="173" tvg-logo="https://prabhas.in/uploads/movies/68f9366d37774_1761162861.jpg" group-title="News",Raja Saab 2026
-https://exoplayermix.m3u8https://pub-36cd9ed04465415baa6377b6871e9bca.r2.dev/The%20Raja%20Saab%202026%20Hindi%20www.ExtraFlix.pw%201080p%20HDTC%20x264.mkv
+#EXTINF:-1 tvg-id="173" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDk0YzdmOTAtNTFmMi00NTQ0LThhMTAtNGY1NDRkNmIyODdmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" group-title="News",Toaster 2026
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/188502/stream.mkv?api_key=a61b81f93ec0449e9203f12b0b91b11d&Static=true&MediaSourceId=mediasource_188502&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
-#EXTINF:-1 tvg-id="173" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzFiNTVkZjYtM2I3Yi00MGNjLWEyYTAtMGViNGExZmMzMGMzXkEyXkFqcGc@._V1_.jpg" group-title="News",Dhurandhar 2025
-https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/141340/stream.mp4?api_key=a61b81f93ec0449e9203f12b0b91b11d&Static=true&MediaSourceId=mediasource_141340&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
+#EXTINF:-1 tvg-id="173" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2NhYzE1YTUtNDA0Yi00ZjhlLWEyMzUtN2UxMzkzZTdkMDRlXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg" group-title="News",180 Movie 2026
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/190232/stream.mkv?api_key=a61b81f93ec0449e9203f12b0b91b11d&Static=true&MediaSourceId=mediasource_190232&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
 
-#EXTINF:-1 tvg-id="173" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c8/Dhurandhar-_The_Revenge_poster.jpg" group-title="News",Dhurandhar 2026
-https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/150171/stream.mp4?api_key=a61b81f93ec0449e9203f12b0b91b11d&Static=true&MediaSourceId=mediasource_150171&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
+#EXTINF:-1 tvg-id="173" tvg-logo="https://m.media-amazon.com/images/M/MV5BZmEwNTU4MzEtY2Y4Ni00ZWRmLThhMGMtMDE5MTZmMDIzMGVjXkEyXkFqcGc@._V1_.jpg" group-title="News",Raja Shivaji 2026
+https://exoplayermix.m3u8http://160.187.56.254:8096/emby/videos/192031/stream.mkv?api_key=a61b81f93ec0449e9203f12b0b91b11d&Static=true&MediaSourceId=mediasource_192031&DeviceId=d1c89ce3-1148-4f19-a528-680c9daf1b63
