@@ -1,8 +1,23 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="1148" group-title="Shopping" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/TEST8_HD.png",TEST8 HD
+#EXTINF:-1 tvg-id="3174" group-title="English" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Malyalam_Naaptol.png",Malyalam Naaptol
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b9d4acedc66c5660a1e06197a55bccd2:dd53bab1a42f41ae8f0a5c8fd286f456
+#KODIPROP:inputstream.adaptive.license_key=22ce71df8d645126afe97529e2489fc9:468eb93053539c5e9b1c481690ecbbc2
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1776348035~exp=1776369635~acl=/*~hmac=cb972762abda64134ee81ee22d5cf0775b210e13f8f4455a84c388e2f1a066d0"}
-https://exoplayermix.m3u8https://jiotvmblive.cdn.jio.com/bpk-tv/TEST8_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1776348035~exp=1776369635~acl=/*~hmac=cb972762abda64134ee81ee22d5cf0775b210e13f8f4455a84c388e2f1a066d0
+#EXTHTTP:{"cookie":"__hdnea__=st=1775542825~exp=1775564425~acl=/*~hmac=06e97755077b3f87affd6a68a22a0378fd80b813af64a71cff1c5467c84bc47f"}
+https://exoplayermix.m3u8https://jiotvmblive.cdn.jio.com/bpk-tv/Malyalam_Naaptol_MOB/WDVLive/index.mpd?__hdnea__=st=1775542825~exp=1775564425~acl=/*~hmac=06e97755077b3f87affd6a68a22a0378fd80b813af64a71cff1c5467c84bc47f&xxx=%7Ccookie=__hdnea__=st=1775542825~exp=1775564425~acl=/*~hmac=06e97755077b3f87affd6a68a22a0378fd80b813af64a71cff1c5467c84bc47f
+
+#EXTINF:-1 tvg-id="3175" group-title="Tamil" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Tamil_Naaptol.png",Tamil Naaptol
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ad65cd90ce2150cbb6e8c91a920ce4f8:1ce2606584737acc7bda4a01f3d681ec
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1775542825~exp=1775564425~acl=/*~hmac=06e97755077b3f87affd6a68a22a0378fd80b813af64a71cff1c5467c84bc47f"}
+https://exoplayermix.m3u8https://jiotvmblive.cdn.jio.com/bpk-tv/Tamil_Naaptol_MOB/WDVLive/index.mpd?__hdnea__=st=1775542825~exp=1775564425~acl=/*~hmac=06e97755077b3f87affd6a68a22a0378fd80b813af64a71cff1c5467c84bc47f&xxx=%7Ccookie=__hdnea__=st=1775542825~exp=1775564425~acl=/*~hmac=06e97755077b3f87affd6a68a22a0378fd80b813af64a71cff1c5467c84bc47f
+
+#EXTINF:-1 tvg-id="3176" group-title="Telugu" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Telugu_Naaptol.png",Telugu Naaptol
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1f28e392a86957f594c05fe8cedff4b0:9067d915c3c49e866d7cd139868f8084
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1775542825~exp=1775564425~acl=/*~hmac=06e97755077b3f87affd6a68a22a0378fd80b813af64a71cff1c5467c84bc47f"}
+https://exoplayermix.m3u8https://jiotvmblive.cdn.jio.com/bpk-tv/Telugu_Naaptol_MOB/WDVLive/index.mpd?__hdnea__=st=1775542825~exp=1775564425~acl=/*~hmac=06e97755077b3f87affd6a68a22a0378fd80b813af64a71cff1c5467c84bc47f&xxx=%7Ccookie=__hdnea__=st=1775542825~exp=1775564425~acl=/*~hmac=06e97755077b3f87affd6a68a22a0378fd80b813af64a71cff1c5467c84bc47f
+
