@@ -1,0 +1,2519 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD Stream - Apps on Google Play</title>
+    <style>
+        /* Authentic Google Play Store Light Theme Variables */
+        :root {
+            --play-green: #01875f;
+            --play-bg: #ffffff; /* pure white background */
+            --text-dark: #202124;
+            --text-light: #5f6368;
+            --border-color: #e8eaed;
+            --btn-secondary-border: #dadce0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa; /* Playstore soft outer grey */
+            color: var(--text-dark);
+            padding-bottom: 40px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Pure White Responsive Navbar */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 24px;
+            background-color: #ffffff; /* Header Pure White */
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .play-logo-img {
+            height: 80px;
+            width: 160px;
+            object-fit: contain;
+        }
+
+        .play-text {
+            font-size: 20px;
+            font-weight: 400;
+            color: var(--text-light);
+            letter-spacing: -0.2px;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            color: var(--text-light);
+        }
+
+        .header-icon {
+            cursor: pointer;
+            width: 22px;
+            height: 22px;
+            fill: currentColor;
+        }
+
+        /* Main Wrapper (Playstore Page body) */
+        .main-wrapper {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: #ffffff; /* Poori body white ho gayi */
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        /* Large Video/Banner Container */
+        .banner-container {
+            width: 100%;
+            position: relative;
+            background: #000; /* वीडियो बैकग्राउंड के लिए ब्लैक बेस */
+            aspect-ratio: 16 / 9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        /* 🎬 YouTube Embed Frame System CSS */
+        #video-embed {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            z-index: 1;
+        }
+
+        /* Dark overlay to make title and buttons perfectly visible */
+        .banner-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 50%, transparent 100%);
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .banner-title {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: clamp(28px, 6vw, 42px);
+            font-weight: 800;
+            color: #ffffff;
+            text-shadow: 0 4px 12px rgba(0,0,0,0.6);
+            letter-spacing: -0.5px;
+            text-align: center;
+            padding: 0 20px;
+            z-index: 3;
+            width: 100%;
+            pointer-events: none;
+        }
+
+        /* Bottom Row Controls Wrapper - बटन को दोनों कोनों में बांटने के लिए अपडेट किया गया */
+        .banner-controls-row {
+            position: absolute;
+            bottom: 16px;
+            left: 20px;
+            width: calc(100% - 40px); /* दोनों तरफ से 20px का मार्जिन छोड़कर पूरी चौड़ाई */
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* ट्रेलर को लेफ्ट और साउंड को राइट में धकेलेगा */
+            z-index: 4;
+        }
+
+        /* Play Trailer Button overlay */
+        .trailer-btn {
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: #fff;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            height: 32px;
+        }
+
+        /* 🔊 Integrated Sound Toggle Button style */
+        .unmute-btn {
+            background: var(--play-green);
+            border: none;
+            color: #fff;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            height: 32px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            transition: background 0.2s;
+        }
+        .unmute-btn:hover {
+            background: #00704f;
+        }
+
+        /* Content Info Section */
+        .app-content-box {
+            padding: 24px 24px 10px 24px;
+            background-color: #ffffff;
+        }
+
+        /* Floating Icon Layout */
+        .meta-header {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            margin-bottom: 24px;
+        }
+
+        .app-icon {
+            width: 96px;
+            height: 96px;
+            border-radius: 20px;
+            object-fit: cover;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            flex-shrink: 0;
+            border: 1px solid var(--border-color);
+        }
+
+        .app-titles {
+            flex-grow: 1;
+        }
+
+        .app-titles h1 {
+            font-size: 28px;
+            font-weight: 400;
+            color: var(--text-dark);
+            margin-bottom: 2px;
+            line-height: 1.2;
+        }
+
+        .dev-name {
+            color: var(--play-green);
+            font-size: 15px;
+            font-weight: 500;
+            margin-bottom: 4px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .ads-info {
+            color: var(--text-light);
+            font-size: 12px;
+        }
+
+        /* Play Store 3-Column Stats Grid */
+        .stats-grid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 24px 0;
+            text-align: center;
+        }
+
+        .stat-item {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .stat-item:not(:last-child) {
+            border-right: 1px solid var(--border-color);
+        }
+
+        .stat-number {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-dark);
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            height: 20px;
+        }
+
+        .stat-subtitle {
+            font-size: 11px;
+            color: var(--text-light);
+            margin-top: 6px;
+        }
+
+        .rating-star {
+            font-size: 11px;
+        }
+
+        .age-badge {
+            background: none;
+            border: 1px solid var(--text-light);
+            color: var(--text-dark);
+            padding: 1px 4px;
+            font-size: 10px;
+            font-weight: 700;
+            border-radius: 2px;
+        }
+
+        /* Action Buttons Area */
+        .actions-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .btn-primary {
+            background-color: var(--play-green);
+            color: #ffffff;
+            font-weight: 500;
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 14px;
+            text-decoration: none;
+            transition: background-color 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-primary:hover {
+            background-color: #00704f;
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--play-green);
+            border: 1px solid var(--btn-secondary-border);
+            font-weight: 500;
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 14px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(0,0,0,0.02);
+        }
+
+        /* Share & Wishlist Row */
+        .utility-row {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 20px 0;
+        }
+
+        .util-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--play-green);
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .util-btn svg {
+            width: 18px;
+            height: 18px;
+            fill: currentColor;
+        }
+
+        /* White Screenshots Section */
+        .screenshots-box {
+            padding: 24px 0;
+            border-top: 1px solid var(--border-color);
+            background-color: #ffffff; /* screenshot background pure white */
+        }
+
+        .screenshots-box h2 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 16px;
+            padding-left: 24px;
+            color: var(--text-dark);
+        }
+
+        .scroll-tray {
+            display: flex;
+            gap: 14px;
+            overflow-x: auto;
+            padding: 0 24px 12px 24px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .scroll-tray::-webkit-scrollbar {
+            height: 6px;
+        }
+        .scroll-tray::-webkit-scrollbar-thumb {
+            background: #dadce0;
+            border-radius: 10px;
+        }
+
+        /* Strictly Locked Dimensions width increased, height locked */
+        .tray-img {
+            width: 220px;
+            height: 335px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            flex-shrink: 0;
+            scroll-snap-align: start;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        }
+
+        /* Description Block (White Background) */
+        .about-block {
+            padding: 24px;
+            border-top: 1px solid var(--border-color);
+            background-color: #ffffff;
+        }
+
+        .about-block h2 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 12px;
+            color: var(--text-dark);
+        }
+
+        .about-block p {
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.5;
+            margin-bottom: 12px;
+        }
+
+        /* --- Ratings & Reviews Section Styling --- */
+        .reviews-block {
+            padding: 24px;
+            border-top: 1px solid var(--border-color);
+            background-color: #ffffff;
+        }
+
+        .reviews-block h2 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 16px;
+            color: var(--text-dark);
+        }
+
+        .rating-overview {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        .big-rating {
+            font-size: 48px;
+            font-weight: 400;
+            color: var(--text-dark);
+            line-height: 1;
+        }
+
+        .big-rating-stars {
+            color: var(--play-green);
+            font-size: 14px;
+            margin-top: 6px;
+            letter-spacing: 2px;
+        }
+
+        .total-reviews-count {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 4px;
+        }
+
+        .rating-bars {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .bar-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 12px;
+            color: var(--text-light);
+        }
+
+        .star-num {
+            width: 8px;
+            text-align: center;
+        }
+
+        .bar-bg {
+            flex-grow: 1;
+            height: 10px;
+            background-color: #e8eaed;
+            border-radius: 999px;
+            overflow: hidden;
+        }
+
+        .bar-fill {
+            height: 100%;
+            background-color: var(--play-green);
+            border-radius: 999px;
+        }
+
+        /* User Comments Styling */
+        .user-review {
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+        }
+        
+        .user-review:not(:last-child) {
+            border-bottom: 1px solid #f1f3f4;
+        }
+
+        .review-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 6px;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .user-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: #e8eaed;
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .user-name {
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--text-dark);
+        }
+
+        .review-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+        }
+
+        .user-stars {
+            color: var(--play-green);
+            font-size: 11px;
+        }
+
+        .review-date {
+            font-size: 12px;
+            color: var(--text-light);
+        }
+
+        .review-text {
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.4;
+        }
+
+        /* Laptop & Tablet Scaling Rule */
+        @media (min-width: 768px) {
+            body {
+                background-color: #f1f3f4; /* standard gray outside page wrapper */
+                padding-top: 24px;
+            }
+            .main-wrapper {
+                border-radius: 12px;
+                border: 1px solid var(--border-color);
+                overflow: hidden;
+                box-shadow: 0 1px 3px 0 rgba(60,64,67,.3), 0 4px 8px 3px rgba(60,64,67,.15);
+            }
+            .tray-img {
+                width: 260px;
+                height: 395px; /* Tablet/Laptop locked aspect sizing */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <img class="play-logo-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQFnz_ODfkvmOvTVve41yFy-VGCsKzfUbjQA&s" alt="Google Play">
+            <span class="play-text"></span>
+        </div>
+        <div class="header-right">
+            <svg class="header-icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        </div>
+    </header>
+
+   <div class="main-wrapper">
+        
+        <div class="banner-container">
+            <div id="video-embed"></div>
+            
+            <div class="banner-overlay"></div>
+
+            <div class="banner-title"></div>
+            
+            <div class="banner-controls-row">
+                <div class="trailer-btn">
+                    <span>▶</span> Trailer
+                </div>
+                
+                <button class="unmute-btn" id="unmuteButton">▶ TAP FOR SOUND</button>
+            </div>
+        </div>
+
+        <div class="app-content-box">
+            
+            <div class="meta-header">
+                <img class="app-icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJWpijSHQubyvdUGurFbBz1qIQ0Qd1eYm53EWzfXTtISv6QvVWXGOw0d30zASeoiIb5NQwRAdtuN49c26aOlXd-Mers0i9Hxp7wGv5azp7_dwTyRr6Llda8uon1cBVNDybhLUtW4YNhzxc5Hfn5q91vPyLqUac3Zs3xTwiPDqYz26Ocf05cIUEMyM5UsJF/s1600/HD%20Stream%20Logo.png" alt="HD Stream Logo">
+                
+                <div class="app-titles">
+                    <h1>HD Stream Free Live TV App for Google TV Android TV and Smart Phones</h1>
+                    <a href="#" class="dev-name">HD Media LTD</a>
+                    <div class="ads-info">No Ads · Premium Unlocked</div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">4.8 <span class="rating-star">★</span></div>
+                    <div class="stat-subtitle">3K reviews</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number"><span class="age-badge">12+</span></div>
+                    <div class="stat-subtitle">Rated for 12+ ⓘ</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50K+</div>
+                    <div class="stat-subtitle">Downloads</div>
+                </div>
+            </div>
+
+            <div class="actions-wrapper">
+                <a href="https://t.me/+UYkMSUIvuCRiM2M1" class="btn-primary">Install From Telegram</a>
+                <a href="https://t.me/+UYkMSUIvuCRiM2M1" class="btn-secondary">Download Now</a>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="screenshots-box">
+            <h2>Screenshots</h2>
+            <div class="scroll-tray">
+                <img class="tray-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3YAjOVhEjGs1Fiaz-QuMOBOGUqPn23SGF7owCw3SY2DW6CC1hjj7-98dNsZlkxMMDJPCTC7fLzspYs5-jweOfwwPMSmnkVsOMPkgh_A7Px59TCqbm7f7GRt-bdcLAmD4Yxg1DeTjuqqQarSWJUMhXVIpSyxmz3jSDRPzfNrJi8Q7V-gZ5D4R0CUhnYI9X/s1600/HD%20Stream%20Music.png" alt="HD Stream Music">
+                <img class="tray-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh5owSkQOipdWO4KFkQm0G01f23Qs4XvUEgB7xIkJspkCA9WHmP7EzKumQkUD0i5QOFXmyAzkDUMNtEOcDOxUZk4F7-Soh0BRXxVcv9oWxGzz2qCgwr5QN-AA09fWZN8O9j4coRoLpmbXmbKYYwX596fh3uF104s3HOHmbpV59za-PmysImA3brr9fwHFe/s1600/HD%20Stream%20Entertainment.png" alt="HD Stream Entertainment">
+                <img class="tray-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ0zFxkGo46kfZVA0hF2KeIR21w7tZpSwd5pXTv2B1e0inbYCAI73V8-Pit3F0KekzFknd75UUmu6nD-bEgj0eYqQ4qn96W8pljMuSNudnkaTl102lp3dNeueyfaxAc07CFL6b5E-RIuBU_E4heGJKme93hH6lULbJKGg5-Zo38ZpAzErfMAlCqCzr2hm-/s1600/HD%20Stream%20News.png" alt="HD Stream News">
+                <img class="tray-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhJMyqgMMqT5p7VyxFI2LerH110B5UlhDT04iCtWffzElaCSCMzKfTNSLmc6DjXCigsHkSHZ_ef-cbtsZOpDrH15AJEBcxnhZR2F1t9v3snO9XELPK8q_LRAK8RXaHINiQrEGe7oRBzvolVsXAW2JopK_ojGdPfodEITdJx_YFN8wNKNwvzAORStT_xf79/s1600/HD%20Stream%20Sports.png" alt="HD Stream Sports">
+                <img class="tray-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia02ziNnGmvGEiVpE9upS3st-xzS1a4WoPfgXSuy_4WNarGG_mVPOlod3MRE8Zn4W6jP52UvVte5VuT9roaqv2LXC8hSa0JonnXqBA99yrkpDEfhEeF4w7KAuImOSJSAtnPkmXVqsDg0lSAPbyymqRR9FpCbcopNB7wpfiIhP6GAZSoGC7mI54dbXwe9h3/s1600/HD%20Stream%20Kids.png" alt="HD Stream Kids">
+            </div>
+        </div>
+  <div class="about-block">
+            <h2>About this app</h2>
+            <p><strong>HD Stream</strong> ek premium next-generation IPTV player hai jo aapko aapke pasandida Live TV channels, Movies, aur Web Series ko Ultra-HD quality me dekhne ki sahulat deta hai.</p>
+            <p>Chahe aapka Android smartphone ho, Android TV ho ya Amazon Firestick — hamara lightweight player har device par bina kisi buffering ke super smooth chalta hai.</p>
+        </div>
+
+        <!-- --- New Ratings and Reviews Section --- -->
+        <div class="reviews-block">
+            <h2>Ratings and reviews</h2>
+            
+            <!-- Rating Overview Bar Graph -->
+            <div class="rating-overview">
+                <div class="rating-left">
+                    <div class="big-rating">4.8</div>
+                    <div class="big-rating-stars">★★★★★</div>
+                    <div class="total-reviews-count">3K reviews</div>
+                </div>
+                
+                <div class="rating-bars">
+                    <div class="bar-row">
+                        <span class="star-num">5</span>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 65%;"></div></div>
+                    </div>
+                    <div class="bar-row">
+                        <span class="star-num">4</span>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 15%;"></div></div>
+                    </div>
+                    <div class="bar-row">
+                        <span class="star-num">3</span>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 8%;"></div></div>
+                    </div>
+                    <div class="bar-row">
+                        <span class="star-num">2</span>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 4%;"></div></div>
+                    </div>
+                    <div class="bar-row">
+                        <span class="star-num">1</span>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 8%;"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- User Comments List -->
+            <div class="user-reviews-list">
+                
+                <!-- Review 1 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rahul Sharma</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 28, 2026</span>
+                    </div>
+                    <p class="review-text">Bahut hi badhiya app hai! Live TV channels bina kisi buffering ke smooth chalte hain. UI bhi bilkul clean aur simple hai.</p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Amit Verma</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 15, 2026</span>
+                    </div>
+                    <p class="review-text">Picture quality lajawab hai. Bas thode ads kam ho jate to maza aa jata, baaki player ka performance top-notch hai.</p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">P</div>
+                            <span class="user-name">Pooja Patel</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 30, 2026</span>
+                    </div>
+                    <p class="review-text">Maine ise apne Android TV par install kiya hai, remote support ke sath perfect chalta hai. Free me itne saare features milna mushkil hai.</p>
+                </div>
+              <!-- Review 1 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">V</div>
+                            <span class="user-name">Vikram Singh</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">June 02, 2026</span>
+                    </div>
+                    <p class="review-text">IPL matches dekhne ke liye best app hai. 4G network par bhi bina ruke streaming hoti hai, maza aa gaya!</p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">N</div>
+                            <span class="user-name">Neha Gupta</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">June 01, 2026</span>
+                    </div>
+                    <p class="review-text">Web series ka collection bahut achha hai. Audio quality thodi aur behtar ho sakti thi, lekin overall app badiya hai.</p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rohan Das</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 29, 2026</span>
+                    </div>
+                    <p class="review-text">Maine abhi tak jitne bhi IPTV players use kiye hain, ye un sabse fast aur user-friendly hai. Recommended!</p>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Sanjay Mishra</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 27, 2026</span>
+                    </div>
+                    <p class="review-text">App to sahi hai par kabhi kabhi full screen mode me video lag karne lagta hai. Update me fix karo ise please.</p>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Anjali Joshi</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 25, 2026</span>
+                    </div>
+                    <p class="review-text">Mujhe iska navigation bahut pasand aaya. Categories wise channels acche se arrange hain, dhundhne me dikkat nahi hoti.</p>
+                </div>
+
+                <!-- Review 6 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">M</div>
+                            <span class="user-name">Manish Kumar</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 23, 2026</span>
+                    </div>
+                    <p class="review-text">Free app ke hisab se features bahut kamaal ke hain. Ek star kam de raha hu kyunki video load hone me 2-3 second leta hai.</p>
+                </div>
+
+                <!-- Review 7 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">K</div>
+                            <span class="user-name">Karan Malhotra</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 20, 2026</span>
+                    </div>
+                    <p class="review-text">Dark mode feature mera favourite hai. Raat ko news dekhne me aakhon par strain nahi padta. 5 stars!</p>
+                </div>
+
+                <!-- Review 8 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">P</div>
+                            <span class="user-name">Priti Yadav</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 18, 2026</span>
+                    </div>
+                    <p class="review-text">News channels aur entertainment channels dono ka combination best hai. Family ke liye perfect entertainment app hai.</p>
+                </div>
+
+                <!-- Review 9 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Abhishek Nair</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 14, 2026</span>
+                    </div>
+                    <p class="review-text">Cast to TV ka option smoothly kaam karta hai. Maine apne Firestick par chalaya aur experience ekdam solid raha.</p>
+                </div>
+
+                <!-- Review 10 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">D</div>
+                            <span class="user-name">Deepak Chawla</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 11, 2026</span>
+                    </div>
+                    <p class="review-text">Content bohot badiya hai, bas jab bhi channel change karo ek pop-up ad aa jata hai. Thoda annoying hai ye.</p>
+                </div>
+
+                <!-- Review 11 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Shweta Tiwari</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 09, 2026</span>
+                    </div>
+                    <p class="review-text">Mera chota bhai isme cartoon channels dekhta hai aur mai serials. Data consumption bhi baki apps se kam lagta hai.</p>
+                </div>
+
+                <!-- Review 12 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">H</div>
+                            <span class="user-name">Harish Reddy</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 06, 2026</span>
+                    </div>
+                    <p class="review-text">HD content smoothly play hota hai. Agar subtitles ka support har video me mil jaye to maza aa jayega.</p>
+                </div>
+
+                <!-- Review 13 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">G</div>
+                            <span class="user-name">Gaurav Saxena</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 03, 2026</span>
+                    </div>
+                    <p class="review-text">Kamal ka app hai yaar. Background play ka feature sabse useful hai, jab dusra kaam karna ho tab bhi audio chalta rehta hai.</p>
+                </div>
+
+                <!-- Review 14 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">K</div>
+                            <span class="user-name">Kriti Deshmukh</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 28, 2026</span>
+                    </div>
+                    <p class="review-text">Regional channels ka option dekh kar bohot khushi hui. Marathi aur South Indian channels bhi high quality me mil rahe hain.</p>
+                </div>
+
+                <!-- Review 15 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Arjun Kapoor</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">April 25, 2026</span>
+                    </div>
+                    <p class="review-text">App ka look aur feel badiya hai par kuch channels hamesha 'Server Error' dikhate hain. Please unhe fix kijiye.</p>
+                </div>
+
+                <!-- Review 16 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rajesh Verma</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 22, 2026</span>
+                    </div>
+                    <p class="review-text">Ab cable TV ka recharge karwane ki koi zaroorat nahi padti. Saare live news aur sports channels isi ek app me mil jate hain.</p>
+                </div>
+
+                <!-- Review 17 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Sneha Paul</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 19, 2026</span>
+                    </div>
+                    <p class="review-text">Bina kisi subscription fee ke itna sab kuch dena waise hi badi baat hai. Quality aur layout dono hi a-one hain.</p>
+                </div>
+
+                <!-- Review 18 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">Y</div>
+                            <span class="user-name">Yash Wardhan</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 15, 2026</span>
+                    </div>
+                    <p class="review-text">Iska internal media player bohot powerful hai. Gesture controls (volume aur brightness ke liye) acche se kaam karte hain.</p>
+                </div>
+
+                <!-- Review 19 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">T</div>
+                            <span class="user-name">Tanmay Bhatia</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 11, 2026</span>
+                    </div>
+                    <p class="review-text">Low internet speed me bhi stream manage ho jati hai, auto-quality feature kaafi achha kaam karta hai.</p>
+                </div>
+
+                <!-- Review 20 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">J</div>
+                            <span class="user-name">Jyoti Sharma</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 08, 2026</span>
+                    </div>
+                    <p class="review-text">Superb application! Aaj tak kisi live TV app me itna clean interface nahi dekha. Developers ko mera thumps up 👍.</p>
+                </div>
+              <!-- Review 21 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Alok Tripathi</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">June 04, 2026</span>
+                    </div>
+                    <p class="review-text">Maine ise Android Box par chalaya, layout bilkul smooth hai. Remote selection me koi issue nahi aata, kaafi badhiya code kiya hai.</p>
+                </div>
+
+                <!-- Review 22 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">M</div>
+                            <span class="user-name">Megha Sharma</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">June 03, 2026</span>
+                    </div>
+                    <p class="review-text">Saare channels ek hi jagah mil jaate hain. Bas sports section me thoda delay kam ho jaye to live match dekhne ka maza dugna ho jayega.</p>
+                </div>
+
+                <!-- Review 23 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rishabh Pant</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">June 02, 2026</span>
+                    </div>
+                    <p class="review-text">Kamal ka application hai! Ekdam fast loading hoti hai aur quality hamesha stable rehti hai. Ab tak ka best entertainment app.</p>
+                </div>
+
+                <!-- Review 24 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Sunita Rao</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 31, 2026</span>
+                    </div>
+                    <p class="review-text">App ka look standard hai par kuch link raat ke waat loading lete hain. Server optimization ki zaroorat hai.</p>
+                </div>
+
+                <!-- Review 25 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">V</div>
+                            <span class="user-name">Vivek Anand</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 29, 2026</span>
+                    </div>
+                    <p class="review-text">Iska full screen control bohot responsive hai. Audio sync ka bhi koi problem nahi mila mujhe abhi tak. 10/10!</p>
+                </div>
+
+                <!-- Review 26 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">P</div>
+                            <span class="user-name">Pankaj Dhillon</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 28, 2026</span>
+                    </div>
+                    <p class="review-text">App simple aur lightweight hai, low-end devices par bhi hang nahi karta. Ads thode bade hain par app free hai to chalta hai.</p>
+                </div>
+
+                <!-- Review 27 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">D</div>
+                            <span class="user-name">Divya Teja</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 26, 2026</span>
+                    </div>
+                    <p class="review-text">South Indian movies aur regional channels ka bohot badiya collection hai. Language filter ka option kaafi sahi kaam karta hai.</p>
+                </div>
+
+                <!-- Review 28 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">N</div>
+                            <span class="user-name">Nitin Chaudhary</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 24, 2026</span>
+                    </div>
+                    <p class="review-text">Picture to Picture (PiP) mode kaafi badhiya chalta hai. Match chalu rakh ke WhatsApp chalane me bohot aasani hoti hai.</p>
+                </div>
+
+                <!-- Review 29 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Siddharth Jain</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 22, 2026</span>
+                    </div>
+                    <p class="review-text">Bhai sach me maza aa gaya. Interface poora modern hai aur channel transitions ekdam instant hote hain. Keep it up!</p>
+                </div>
+
+                <!-- Review 30 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">K</div>
+                            <span class="user-name">Kavita Bisht</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 19, 2026</span>
+                    </div>
+                    <p class="review-text">Mujhe design bohot accha laga, lekin search bar me kuch specific channels typing karne par show nahi hote. Fix kijiye.</p>
+                </div>
+
+                <!-- Review 31 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rinku Yadav</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 17, 2026</span>
+                    </div>
+                    <p class="review-text">Gaon me jahan network kam aata hai, wahan bhi ye app smoothly stream kar deta hai. Data efficiently optimize karta hai.</p>
+                </div>
+
+                <!-- Review 32 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Amanpreet Singh</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 15, 2026</span>
+                    </div>
+                    <p class="review-text">Player controls bohot badhiya hain, aspect ratio zoom karne ka option perfect hai. Web links fast parse hote hain.</p>
+                </div>
+
+                <!-- Review 33 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">U</div>
+                            <span class="user-name">Uday Kiran</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 12, 2026</span>
+                    </div>
+                    <p class="review-text">Ab heavy streaming web sites par jaane ki koi tension nahi. Is player ne sab kuch simple aur ad-free type banaya hai internal video me.</p>
+                </div>
+
+                <!-- Review 34 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Shalini Hegde</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 10, 2026</span>
+                    </div>
+                    <p class="review-text">Mera roz ka devotional channels dekhne ka routine isi app se chalta hai. Stream lag nahi hoti, very content filter is nice.</p>
+                </div>
+
+                <!-- Review 35 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">M</div>
+                            <span class="user-name">Mohit Solanki</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 07, 2026</span>
+                    </div>
+                    <p class="review-text">Kuch movie streams beech me ruk jaati hain aur restart karna padta hai. Halanki live TV perfectly chalta hai bina dikkat ke.</p>
+                </div>
+
+                <!-- Review 36 -->
+                <div class="user-review">
+                    <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">H</div>
+                            <span class="user-name">Himanshu Joshi</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 05, 2026</span>
+                    </div>
+                    <p class="review-text">Outstanding app! Iska auto reconnect server option kamaal ka hai, wifi se mobile data par switch hone par stream drop nahi hoti.</p>
+                </div>
+
+                <!-- Review 37 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">P</div>
+                            <span class="user-name">Poonam Rathi</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 29, 2026</span>
+                    </div>
+                    <p class="review-text">Muje iski categories ka design bhot accha laga, news, sports sab alag se instantly load ho jata hai. Worth installing.</p>
+                </div>
+
+                <!-- Review 38 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rajdeep Dutta</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 26, 2026</span>
+                    </div>
+                    <p class="review-text">Amazing player controls! Exoplayer integration lagta hai, tabhi playback speed aur decoding itni tagdi hai. Professional build hai.</p>
+                </div>
+
+                <!-- Review 39 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">V</div>
+                            <span class="user-name">Varun Grover</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 21, 2026</span>
+                    </div>
+                    <p class="review-text">Audio and video clarity clear crystal hai. Thoda sa overlay navigation menu fast ho jaye to five star rating dunga.</p>
+                </div>
+
+                <!-- Review 40 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">J</div>
+                            <span class="user-name">Jatin Wadhwa</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 17, 2026</span>
+                    </div>
+                    <p class="review-text">Best free live TV alternative market me abhi tak ka. Zero crashes aur lightweight build. Developers ne dil jeet liya.</p>
+                </div>
+                  <!-- Review 41 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Sandeep Khurana</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">June 04, 2026</span>
+                    </div>
+                    <p class="review-text">Bhai best app hai live streaming ke liye. Aaj tak koi crash nahi mila aur layout ekdam smooth work karta hai.</p>
+                </div>
+
+                <!-- Review 42 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Aisha Khan</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">June 03, 2026</span>
+                    </div>
+                    <p class="review-text">Mujhe iska color combination aur tabs ka partition bohot achha laga. Channels load hone me zyada time nahi lete.</p>
+                </div>
+
+                <!-- Review 43 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Ramanathan Iyer</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">June 02, 2026</span>
+                    </div>
+                    <p class="review-text">Very impressed with the stream quality. Audio-video sync is absolutely perfect, even on low bandwidth connections.</p>
+                </div>
+
+                <!-- Review 44 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">M</div>
+                            <span class="user-name">Mukesh Chand</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">June 01, 2026</span>
+                    </div>
+                    <p class="review-text">App thik hai par refresh hone me thoda waqt lagata hai jab list update hoti hai. Baaki screen size automation sahi hai.</p>
+                </div>
+
+                <!-- Review 45 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">P</div>
+                            <span class="user-name">Prerna Rawat</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 31, 2026</span>
+                    </div>
+                    <p class="review-text">Maine ise apne Android tablet par test kiya, vertical aur horizontal dono layouts me fit baithta hai. 5 stars from my side!</p>
+                </div>
+
+                <!-- Review 46 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">G</div>
+                            <span class="user-name">Gagan Thapa</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 29, 2026</span>
+                    </div>
+                    <p class="review-text">Bina kisi problem ke saare trends aur news feed live mil jaate hain. Navigation buttons thode aur bade ho sakte hain mobile screen ke liye.</p>
+                </div>
+
+                <!-- Review 47 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">V</div>
+                            <span class="user-name">Vijay Marathe</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 28, 2026</span>
+                    </div>
+                    <p class="review-text">Top class features wo bhi bilkul free. Iske full-screen toggle mode ka response time bohot tez hai.</p>
+                </div>
+
+                <!-- Review 48 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">N</div>
+                            <span class="user-name">Nisha Aggarwal</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 27, 2026</span>
+                    </div>
+                    <p class="review-text">Mujhe entertainment section ka filter kaafi unique laga. Smooth playback control, badhiya coding ki hai setup me.</p>
+                </div>
+
+                <!-- Review 49 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">K</div>
+                            <span class="user-name">Kartik Awasthi</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 25, 2026</span>
+                    </div>
+                    <p class="review-text">Baki heavy stream apps se lakh guna behter hai. Memory storage bhi bohot kam leta hai, lightweight king!</p>
+                </div>
+
+                <!-- Review 50 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">D</div>
+                            <span class="user-name">Deepshikha Sen</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 24, 2026</span>
+                    </div>
+                    <p class="review-text">Content to super hai par volume panel screen touch control me kabhi kabhi unresponsive ho jata hai. Check karein.</p>
+                </div>
+
+                <!-- Review 51 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rahul Paswan</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 22, 2026</span>
+                    </div>
+                    <p class="review-text">Is app ne toh cable waalon ki dukandari band karwa di! HD quality aur fast loading ka joradar combination hai.</p>
+                </div>
+
+                <!-- Review 52 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Saurabh Shukla</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 20, 2026</span>
+                    </div>
+                    <p class="review-text">UI design kaafi solid lagta hai. Channels easily navigate ho jate hain, auto-bitrate optimization bohot badiya se work karta hai.</p>
+                </div>
+
+                <!-- Review 53 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Anand Vardhan</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 19, 2026</span>
+                    </div>
+                    <p class="review-text">Main 5 star de raha hu kyunki iske media frame parsing bohot heavy hai. HD videos bina buffering ke instant playback dete hain.</p>
+                </div>
+
+                <!-- Review 54 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">J</div>
+                            <span class="user-name">Jaspreet Bundela</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 17, 2026</span>
+                    </div>
+                    <p class="review-text">Punjabi aur regional content playlist bahut solid hai. Stream bypass error bilkul nahi aata, safe system hai.</p>
+                </div>
+
+                <!-- Review 55 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">U</div>
+                            <span class="user-name">Utkarsh Sinha</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 14, 2026</span>
+                    </div>
+                    <p class="review-text">Video player screen aspect ratio manual setting thodi complex hai. Automatic focus mode thoda aur optimize kiya ja sakta hai.</p>
+                </div>
+
+                <!-- Review 56 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">Y</div>
+                            <span class="user-name">Yogesh Gole</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 11, 2026</span>
+                    </div>
+                    <p class="review-text">Great app. Multi-server streaming feature is awesome, agar ek stream down ho to doosra handle kar leta hai.</p>
+                </div>
+
+                <!-- Review 57 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">P</div>
+                            <span class="user-name">Pallavi Kulkarni</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 09, 2026</span>
+                    </div>
+                    <p class="review-text">Layout dekhne me kafi elegant hai. Content load processing time kam hai jo ki multitasking ke dauran best hai.</p>
+                </div>
+
+                <!-- Review 58 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">B</div>
+                            <span class="user-name">Brijesh Pathak</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 06, 2026</span>
+                    </div>
+                    <p class="review-text">Bina jhanjhat ke direct play hota hai sab kuch. Na heavy registration chahiye aur na hi lag issue, simply beautiful code.</p>
+                </div>
+
+                <!-- Review 59 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">T</div>
+                            <span class="user-name">Tushar Mehta</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 03, 2026</span>
+                    </div>
+                    <p class="review-text">Audio output format lajawab hai. Noise control filter built-in lagta hai is player me, dynamic range badiya hai.</p>
+                </div>
+
+                <!-- Review 60 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Ashok Gehlot</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 30, 2026</span>
+                    </div>
+                    <p class="review-text">Best live app ever! Channel categorization up-to-the-mark hai. UI clean hai aur responsiveness solid lagti hai desktop conversion me bhi.</p>
+                </div>
+
+                <!-- Review 61 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Shruti Mohapatra</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 27, 2026</span>
+                    </div>
+                    <p class="review-text">Is app ka background parsing mechanism achha kaam karta hai. Data leakage ka dar nahi aur safe feel hota hai use karne me.</p>
+                </div>
+
+                <!-- Review 62 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">L</div>
+                            <span class="user-name">Lalit Chandel</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">April 23, 2026</span>
+                    </div>
+                    <p class="review-text">Channels list to lambi hai par unme se 1-2 broken links hain. Agle software release ya script refresh me delete kar dena unhe.</p>
+                </div>
+
+                <!-- Review 63 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rajeshwari Nair</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 19, 2026</span>
+                    </div>
+                    <p class="review-text">Absolutely smooth performance on high-definition rendering. Subtitles structure auto pick up kar leta hai ye system.</p>
+                </div>
+
+                <!-- Review 64 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">M</div>
+                            <span class="user-name">Mayank Dixit</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 15, 2026</span>
+                    </div>
+                    <p class="review-text">Low RAM mobile me bhi smooth rendering deta hai. WebView processing handles dynamic parameters excellently.</p>
+                </div>
+
+                <!-- Review 65 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">K</div>
+                            <span class="user-name">Kunal Kapoor</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 10, 2026</span>
+                    </div>
+                    <p class="review-text">This app is a hidden gem for cord-cutters. Easy UI, stable frame delivery, and no forced redirection popups. Outstanding job!</p>
+                </div>
+                  <!-- Review 66 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Abhinav Shrivastava</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">June 04, 2026</span>
+                    </div>
+                    <p class="review-text">Kamal ka compression algorithm use kiya hai shayad, 2mbps ke connection par bhi HD stream smoothly chal jati hai.</p>
+                </div>
+
+                <!-- Review 67 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Sakshi Tanwar</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">June 04, 2026</span>
+                    </div>
+                    <p class="review-text">Mujhe iska user interface bahut simple laga. Zyadatar apps me itne confusing buttons hote hain, par isme sab clear hai.</p>
+                </div>
+
+                <!-- Review 68 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">M</div>
+                            <span class="user-name">Manoj Bajpayee</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">June 03, 2026</span>
+                    </div>
+                    <p class="review-text">Live news channels dekhne ke liye perfect app hai. Frame rate bilkul drop nahi hota aur picture tight rehti hai.</p>
+                </div>
+
+                <!-- Review 69 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">P</div>
+                            <span class="user-name">Priyanka Das</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">June 03, 2026</span>
+                    </div>
+                    <p class="review-text">Channels ka collection achha hai par audio level kisi-kisi stream me thoda low aata hai. Equalizer missing hai.</p>
+                </div>
+
+                <!-- Review 70 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rajat Sharma</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">June 02, 2026</span>
+                    </div>
+                    <p class="review-text">Android TV par d-pad controller ke sath ekdam smooth chalta hai. Navigation setup bahut solid lagta hai.</p>
+                </div>
+
+                <!-- Review 71 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">K</div>
+                            <span class="user-name">Kiran Bedi</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">June 02, 2026</span>
+                    </div>
+                    <p class="review-text">Free version ke hisab se performance kafi fast hai. Agar category lock karne ka system hota to bache bhi use kar pate.</p>
+                </div>
+
+                <!-- Review 72 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">V</div>
+                            <span class="user-name">Vineet Singh</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">June 01, 2026</span>
+                    </div>
+                    <p class="review-text">Bina kisi login ya hidden charges ke itne saare premium channels dena sach me tareef ke kabil hai. No lag at all.</p>
+                </div>
+
+                <!-- Review 73 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">T</div>
+                            <span class="user-name">Tanya Malhotra</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">June 01, 2026</span>
+                    </div>
+                    <p class="review-text">Is player ke gesture controls (brightness aur volume swipe) bade smooth chalte hain. Highly responsive app.</p>
+                </div>
+
+                <!-- Review 74 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">D</div>
+                            <span class="user-name">Deepak Punia</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 31, 2026</span>
+                    </div>
+                    <p class="review-text">Kuch live sport streams me 10-15 seconds ka audio delay ho jata hai kabhi kabhi. Reload karne pe theek hota hai.</p>
+                </div>
+
+                <!-- Review 75 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">N</div>
+                            <span class="user-name">Nidhi Razdan</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 30, 2026</span>
+                    </div>
+                    <p class="review-text">Background audio play option best hai jab sirf news sunni ho aur phone pocket me rakhna ho. Brilliant touch.</p>
+                </div>
+
+                <!-- Review 76 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">J</div>
+                            <span class="user-name">Jaspal Bhatti</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 29, 2026</span>
+                    </div>
+                    <p class="review-text">App ka code kafi lightweight lagta hai kyuki RAM consumption na ke barabar hai. Battery bhi safe rehti hai.</p>
+                </div>
+
+                <!-- Review 77 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">H</div>
+                            <span class="user-name">Harish Salve</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 28, 2026</span>
+                    </div>
+                    <p class="review-text">Maine apni Firestick par bypass configuration ke sath chalaya, buffering gayab ho gayi ekdam crystal clear experience.</p>
+                </div>
+
+                <!-- Review 78 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">G</div>
+                            <span class="user-name">Gita Gopinath</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 27, 2026</span>
+                    </div>
+                    <p class="review-text">International news aur regional content dono ka balance bohot accha banaya hai developers ne. Satisfied!</p>
+                </div>
+
+                <!-- Review 79 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">U</div>
+                            <span class="user-name">Udit Narayan</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 26, 2026</span>
+                    </div>
+                    <p class="review-text">Content is top class but full screen transition me 1-2 frames drops dikhte hain lower variants waale mobiles me.</p>
+                </div>
+
+                <!-- Review 80 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">B</div>
+                            <span class="user-name">Bhuvneshwar Kumar</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 25, 2026</span>
+                    </div>
+                    <p class="review-text">Picture-in-Picture (PiP) mode perfectly functional hai. Office ka kaam karte hue side me match chalta rehta hai.</p>
+                </div>
+
+                <!-- Review 81 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">E</div>
+                            <span class="user-name">Esha Deol</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 24, 2026</span>
+                    </div>
+                    <p class="review-text">Auto-reconnect module kafi responsive hai. WiFi disconnect hone par cellular data par bina screen pause huye switch ho jata hai.</p>
+                </div>
+
+                <!-- Review 82 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">O</div>
+                            <span class="user-name">Om Puri</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 23, 2026</span>
+                    </div>
+                    <p class="review-text">Zero complex setups! Just open the app, click your favorite channel category, and boom — it starts playing instantly.</p>
+                </div>
+
+                <!-- Review 83 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">L</div>
+                            <span class="user-name">Lata Mangeshkar</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 22, 2026</span>
+                    </div>
+                    <p class="review-text">Music channels ki quality aur sound spatial separation bohot badhiya hai. Streaming link crash nahi hoti jaldi.</p>
+                </div>
+
+                <!-- Review 84 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">I</div>
+                            <span class="user-name">Irfan Khan</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 20, 2026</span>
+                    </div>
+                    <p class="review-text">Ad optimization ki thodi zarurat hai, interstitial ads video start hone se pehle thoda zyada samay lete hain.</p>
+                </div>
+
+                <!-- Review 85 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">Z</div>
+                            <span class="user-name">Zakir Khan</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 19, 2026</span>
+                    </div>
+                    <p class="review-text">Sakht launda bhi pighal jaye itna smooth chalta hai ye player! Subtitles pickup aur audio channel selection ekdam kadak hai.</p>
+                </div>
+
+                <!-- Review 86 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">Y</div>
+                            <span class="user-name">Yuvraj Singh</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 18, 2026</span>
+                    </div>
+                    <p class="review-text">Aspect ratio change karne wala tap option kaafi responsive hai. Custom screen widths me adjust ho jata hai bina stretched dikhe.</p>
+                </div>
+
+                <!-- Review 87 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">C</div>
+                            <span class="user-name">Chetan Bhagat</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 16, 2026</span>
+                    </div>
+                    <p class="review-text">A great layout script used here. Elements look highly balanced and padding on cards gives a neat visual experience.</p>
+                </div>
+
+                <!-- Review 88 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">W</div>
+                            <span class="user-name">Wajid Khan</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 15, 2026</span>
+                    </div>
+                    <p class="review-text">Regional language streams are highly stable. Multi-bitrate switching helps to keep the video active even at 3G speeds.</p>
+                </div>
+
+                <!-- Review 89 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">Q</div>
+                            <span class="user-name">Qasim Ali</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 13, 2026</span>
+                    </div>
+                    <p class="review-text">M3u playlists load time could be faster, sometimes the list processing freezes for a second on opening tab.</p>
+                </div>
+
+                <!-- Review 90 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">F</div>
+                            <span class="user-name">Farhan Akhtar</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 11, 2026</span>
+                    </div>
+                    <p class="review-text">Minimalistic look makes it premium. No lag, no uninvited third party popup codes running in background. Neat build.</p>
+                </div>
+
+                <!-- Review 91 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">X</div>
+                            <span class="user-name">Xavier Pinto</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 10, 2026</span>
+                    </div>
+                    <p class="review-text">Tested on multiple tablets, layout structure scale and resolution auto-adjusts beautifully. App handles scale factors fine.</p>
+                </div>
+
+                <!-- Review 92 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Ashish Chanchlani</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 08, 2026</span>
+                    </div>
+                    <p class="review-text">Bhai sahab single click me load hota hai poora streaming panel! Coding level ekdam uttam darje ki hai isme.</p>
+                </div>
+
+                <!-- Review 93 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Sunil Gavaskar</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">May 06, 2026</span>
+                    </div>
+                    <p class="review-text">Clean navigation and excellent stream backup mechanism. Saved links don't expire easily unlike other players.</p>
+                </div>
+
+                <!-- Review 94 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">M</div>
+                            <span class="user-name">Meenal Jain</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">May 04, 2026</span>
+                    </div>
+                    <p class="review-text">The search system can be improved to search by initials or shorthand. Currently requires typing accurate names.</p>
+                </div>
+
+                <!-- Review 95 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rakesh Jhunjhunwala</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">May 02, 2026</span>
+                    </div>
+                    <p class="review-text">Highly optimized network asset processing. It loads stream links using direct protocols which cuts the mid-level lag completely.</p>
+                </div>
+
+                <!-- Review 96 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Archana Puran Singh</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 29, 2026</span>
+                    </div>
+                    <p class="review-text">Comedy channels aur entertainment content load ekdam badiya hota hai yahan. Perfect family app for weekend streaming.</p>
+                </div>
+
+                <!-- Review 97 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">V</div>
+                            <span class="user-name">Vinod Kambli</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 27, 2026</span>
+                    </div>
+                    <p class="review-text">Bhai iska Exoplayer rendering hardware level ka hai, colors ekdam accurate aate hain HDR content play karte waqt.</p>
+                </div>
+
+                <!-- Review 98 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">N</div>
+                            <span class="user-name">Nirmala Sitharaman</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 25, 2026</span>
+                    </div>
+                    <p class="review-text">Budget-friendly to bol nahi sakte kyunki free hai, par value for time double hai. UI component layout kafi clean aur systematic hai.</p>
+                </div>
+
+                <!-- Review 99 -->
+                <div class="user-review">
+                    <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">K</div>
+                            <span class="user-name">Kapil Dev</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">April 22, 2026</span>
+                    </div>
+                    <p class="review-text">Kuch live sport feeds down rehti hain heavy traffic days par. Backup server system automatically failover trigger nahi karta kai baar.</p>
+                </div>
+
+                <!-- Review 100 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Suresh Raina</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 20, 2026</span>
+                    </div>
+                    <p class="review-text">Fielding ho ya code, execution a-one hona chahiye aur is app ka interface ekdam super responsive hai. Loved the transition effects.</p>
+                </div>
+
+                <!-- Review 101 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">D</div>
+                            <span class="user-name">Dinesh Karthik</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 18, 2026</span>
+                    </div>
+                    <p class="review-text">Finisher app hai ye streaming market ka. Multi-view configuration thoda standard ho jaye to best companion ban jayega device ka.</p>
+                </div>
+
+                <!-- Review 102 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">B</div>
+                            <span class="user-name">Bipasha Basu</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 15, 2026</span>
+                    </div>
+                    <p class="review-text">Sleek, glamorous and hyper functional. The player dimensions switch fluidly without overlapping text modules. High quality build.</p>
+                </div>
+
+                <!-- Review 103 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Anupam Kher</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 13, 2026</span>
+                    </div>
+                    <p class="review-text">Ek lambe samay baad koi itna genuine bina jhanjhat wala live stream media tool dekhne ko mila hai. Experience shandaar raha.</p>
+                </div>
+
+                <!-- Review 104 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">L</div>
+                            <span class="user-name">Lokesh Rahul</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">April 10, 2026</span>
+                    </div>
+                    <p class="review-text">Strike rate thoda slow hai channel change compression me, 1-2 second ka lag dikhta hai screen transition hote waqt.</p>
+                </div>
+
+                <!-- Review 105 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">H</div>
+                            <span class="user-name">Hardik Pandya</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 07, 2026</span>
+                    </div>
+                    <p class="review-text">Full power system hai bhai! Heavy links handling and player decoding processes inside this app are super robust. 5/5 stars!</p>
+                </div>
+
+                <!-- Review 106 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">P</div>
+                            <span class="user-name">Pankaj Tripathi</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">April 05, 2026</span>
+                    </div>
+                    <p class="review-text">Bade aaram se, shanti se bina kisi technical rukaawat ke channels chalte hain babu. Badhiya mehnat ki hai design me.</p>
+                </div>
+
+                <!-- Review 107 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">K</div>
+                            <span class="user-name">Kriti Sanon</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">April 02, 2026</span>
+                    </div>
+                    <p class="review-text">Modern font styles and neat spacing inside the review modules and category cards look absolutely brilliant. Aesthetics are super.</p>
+                </div>
+
+                <!-- Review 108 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">V</div>
+                            <span class="user-name">Vidyut Jamwal</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">March 30, 2026</span>
+                    </div>
+                    <p class="review-text">Action packs aur speed decoding capability top level hai is app ki. No buffer, high action playback is completely seamless.</p>
+                </div>
+
+                <!-- Review 109 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rakul Preet Singh</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">March 28, 2026</span>
+                    </div>
+                    <p class="review-text">Interface look and feel is excellent but sometimes the list cache resets automatically when network coverage fluctuations occur.</p>
+                </div>
+
+                <!-- Review 110 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">S</div>
+                            <span class="user-name">Suniel Shetty</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">March 25, 2026</span>
+                    </div>
+                    <p class="review-text">Ye hui na baat! Ekdum solid built-in stream handling, bina kisi dependency ke automatic links run ho rahi hain.</p>
+                </div>
+
+                <!-- Review 111 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">A</div>
+                            <span class="user-name">Ayushmann Khurrana</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">March 22, 2026</span>
+                    </div>
+                    <p class="review-text">Kafi out-of-the-box aur custom dynamic range delivery dekhne ko mili. Layout structural controls highly satisfactory hain.</p>
+                </div>
+
+                <!-- Review 112 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">J</div>
+                            <span class="user-name">Jaideep Ahlawat</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">March 19, 2026</span>
+                    </div>
+                    <p class="review-text">Ekdam thos engineering hai is software layout me. Koi faltu ka show-off nahi, bas direct streaming and top class playback performance.</p>
+                </div>
+
+                <!-- Review 113 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">N</div>
+                            <span class="user-name">Nawazuddin Siddiqui</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★☆</span>
+                        <span class="review-date">March 17, 2026</span>
+                    </div>
+                    <p class="review-text">Kona kona se channels dhund ke dale hain playlist me. Thoda refresh timing aur kam ho jaye toh bilkul he maza aa jayega.</p>
+                </div>
+
+                <!-- Review 114 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">B</div>
+                            <span class="user-name">Bhumi Pednekar</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★☆☆</span>
+                        <span class="review-date">March 15, 2026</span>
+                    </div>
+                    <p class="review-text">App layout clean and simple hai par dark mode me buttons borders toggle elements thode dim lagte hain screen par.</p>
+                </div>
+
+                <!-- Review 115 -->
+                <div class="user-review">
+                    <div class="review-header">
+                        <div class="user-info">
+                            <div class="user-avatar">R</div>
+                            <span class="user-name">Rajkummar Rao</span>
+                        </div>
+                    </div>
+                    <div class="review-meta">
+                        <span class="user-stars">★★★★★</span>
+                        <span class="review-date">March 12, 2026</span>
+                    </div>
+                    <p class="review-text">Highly content rich with zero compromises on optimization. Performance metrics stable hain internal media script decoding me.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </div>       
+
+
+    <!-- ▶️ YouTube API Script System -->
+    <script>
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        document.body.appendChild(tag);
+
+        var player;
+        // अपनी पसंद की 11 अंकों की वीडियो आईडी यहाँ डालो (जैसे ZQYxl3RUTew)
+        const youtubeVideoId = 'yCs98noyImg'; 
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('video-embed', {
+                videoId: youtubeVideoId,
+                playerVars: {
+                    'autoplay': 1,
+                    'mute': 1,
+                    'loop': 1,
+                    'playlist': youtubeVideoId,
+                    'controls': 0,
+                    'showinfo': 0,
+                    'rel': 0,
+                    'modestbranding': 1,
+                    'playsinline': 1
+                },
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            const unmuteBtn = document.getElementById('unmuteButton');
+            
+            unmuteBtn.onclick = () => {
+                if (player.isMuted()) {
+                    player.unMute();
+                    unmuteBtn.textContent = "▶ MUTE SOUND";
+                    unmuteBtn.style.backgroundColor = "#5f6368"; // म्यूट होने पर बटन का रंग बदलेगा
+                } else {
+                    player.mute();
+                    unmuteBtn.textContent = "▶ TAP FOR SOUND";
+                    unmuteBtn.style.backgroundColor = "var(--play-green)";
+                }
+            };
+        }
+    </script>
+</body>
+</html>
